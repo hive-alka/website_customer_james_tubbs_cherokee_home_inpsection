@@ -1,0 +1,109 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is a home inspection?",
+      "answer": "A home inspection is a thorough visual assessment of a property's condition, focusing on its major systems and structural integrity, along with checking details such as the electric receptacles, plumbing fixtures, and window operation. It helps identify any existing or potential issues."
+    },
+    {
+      "id": 2,
+      "question": "I'm new to this and I don't know what to do. Where do I start?",
+      "answer": "You called the right place! We specialize in catering the entire process to you to make it smooth, simple, and stress-free. Call now and we'll explain and answer all of your questions."
+    },
+    {
+      "id": 3,
+      "question": "Why get a home inspection? I have friends and family who can help me.",
+      "answer": "While friends and family may have good intentions, a home inspection by a certified professional provides an unbiased, comprehensive evaluation. We are experienced and trained to spot issues that may not be immediately visible to untrained eyes, and our inspection report is based on industry standards, ensuring that you make an informed decision about the property. Additionally, if you're a buyer, our report helps you to negotiate repairs or the cost of the home."
+    },
+    {
+      "id": 4,
+      "question": "What area do you cover?",
+      "answer": "Allegheny County and all surrounding counties! If you're not sure if we serve your area, please ask."
+    },
+    {
+      "id": 5,
+      "question": "I'm selling my house soon. Should I get an inspection?",
+      "answer": "Absolutely! Having a pre-listing inspection is very beneficial. It allows you to identify and address any issues before listing your property, potentially avoiding delays during negotiations and giving you the opportunity to make repairs ahead of time. This can help speed up the selling process and reduce the chance of surprises during the buyer's inspection. A house with minimal significant deficiencies gives a potential buyer a warm feeling that the house has been well maintained and gives them peace of mind about moving forward with the purchase."
+    },
+    {
+      "id": 6,
+      "question": "Does the home inspection cover _____ on my house?",
+      "answer": "Our inspections cover the home's exterior, interior, porches & decks, basement & foundation, crawlspaces, structural components, roofing, plumbing, electrical systems, heating and cooling (HVAC), windows, insulation, attic, kitchens, bathrooms, and lots of details throughout the house."
+    },
+    {
+      "id": 7,
+      "question": "I need a radon test, a pest inspection, a sewer camera, a mold test, and/or other services. Can you do that?",
+      "answer": "YES! We can manage any service or inspection you need. We are a one-stop shop. If you don't see a service listed, just ask and we'll make it happen!"
+    },
+    {
+      "id": 8,
+      "question": "What tools do you use? A thermal imaging camera? A moisture meter?",
+      "answer": "Yes, all of that! We carry all of the necessary tools to inspect every nook and cranny of your home. We buy high-end tools to ensure accurate and precise results and information."
+    },
+    {
+      "id": 9,
+      "question": "I'm building a new house. Should I get an inspection?",
+      "answer": "Absolutely! We recommend a pre-drywall inspection, a completion inspection, and an 11-month warranty inspection. Just because the house is new, doesn't mean its perfect. Let us give you peace of mind that the contractors didn't take any shortcuts and that your home is in great shape!"
+    },
+    {
+      "id": 10,
+      "question": "Can you inspect a multi-family home?",
+      "answer": "Yes, we frequently inspect apartments! A duplex, triplex, and even four or more units is no problem for us!"
+    },
+    {
+      "id": 11,
+      "question": "What does your home inspection cost? It seems that other companies are much cheaper.",
+      "answer": "We promise high-value results at competitive prices. Our prices our competitive amongst the best inspectors in Pittsburgh. Beware that the requirements to be a home inspector in PA are minimal, so if you found a 'cheap' home inspector, you will likely get a 'cheap' inspection!"
+    },
+    {
+      "id": 12,
+      "question": "Should I be present during the inspection?",
+      "answer": "Please! We encourage clients to attend the inspection in its entirety for several reasons: It gives you several hours to explore the home, learn about it, and ask all of your questions. It's an opportunity to ask questions about what we find and explain, and gain firsthand insights about the home's maintenance needs and operational details. It allows us to explain any deficiencies in person. Receiving an inspection report can feel overwhelming, but when you're there, you'll already know what will be in it, so now the report becomes a reminder of what we talked about."
+    },
+    {
+      "id": 13,
+      "question": "What if I can't attend the inspection?",
+      "answer": "That is ok too! We often work with remote clients and investors. After you review the report, we can schedule a call or virtual meeting to talk about the inspection and answer all of your questions."
+    },
+    {
+      "id": 14,
+      "question": "How long does the inspection take?",
+      "answer": "Most homes take about 3 hours, but this varies based on the size of the home, the condition of the home, and how much conversation we have. We will not limit the time for any reason, and we will be there until we thoroughly cover the home and answer every one of your questions!"
+    },
+    {
+      "id": 15,
+      "question": "Can a friend or family member join me at the inspection or be there for me?",
+      "answer": "The short answer is yes. However, local MLS rules restrict attendees to only those on the sales contract. We allow them to be there, but there's some simple paperwork to allow this. Just ask either we'll help you, or your realtor can."
+    },
+    {
+      "id": 16,
+      "question": "How long does the inspection process and report take? We only have a short time to get this done and respond to the seller.",
+      "answer": "It's fast! We understand the urgency and will accommodate your tight timeline. We'll schedule your home inspection for the next few days, and our reports are guaranteed same-day! If you're a buyer, it's best to schedule immediately when you go under contract."
+    },
+    {
+      "id": 17,
+      "question": "How do I schedule?",
+      "answer": "You can easily schedule online with this link. If you don't see a time that works for you or if you have questions, please call or text, and we will help! If you need special hours, like an evening or weekend, we are happy to accommodate, but you will need to call or text, and there is no added fee for those hours."
+    },
+    {
+      "id": 18,
+      "question": "Will the seller fix everything you find?",
+      "answer": "No. The seller will not fix every defect we find during the inspection. The report will guide you to negotiate on some repairs and/or cost of the home. Your realtor is the professional for this and they're experienced to guide to the best results, and we can certainly help with this and answer your questions."
+    },
+    {
+      "id": 19,
+      "question": "How do I handle repairs and how do I find contractors?",
+      "answer": "We understand that repair needs can be a concern after an inspection. To assist, we maintain a carefully selected network of reliable contractors we can refer to you. These professionals are known for their excellent communication, fair pricing, high-quality materials, and dependable work. You can trust that they will provide the same level of service and professionalism that we strive for in every inspection."
+    },
+    {
+      "id": 20,
+      "question": "Are you licensed and insured?",
+      "answer": "YES! While PA does not issue a license to be a Home Inspector, we meet and exceed the required certifications for the state and for every service we offer. Our insurance exceeds the minimum requirements, providing peace of mind to our clients throughout the inspection process. We are happy to provide those details if you'd like."
+    },
+    {
+      "id": 21,
+      "question": "What is your background, experience, and credentials?",
+      "answer": "Great question, and thank you for asking! We love to brag about what makes us the best in the industry! Our About Me section will tell you all you want to know!"
+    }
+  ]
+}

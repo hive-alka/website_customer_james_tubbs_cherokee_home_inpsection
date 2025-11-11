@@ -1,0 +1,222 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Lillie",
+      "rating": 5,
+      "text": "7 stars would not be a stretch!! Very thorough and professional. Patience with explanations, and I had a lot of questions. Highly recommend!!",
+      "category": "residential",
+      "date": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Mike J.",
+      "rating": 5,
+      "text": "Robbie was outstanding from start to finish. He was always quick to answer any and all questions through text and calls. His report was extremely thorough, with photos, videos, etc. I learned so much from him because of the detail he put into the report and the time he took to answer my questions and to provide Zoom meetings to walk through everything. He found many important things in my home that even the local township inspector did not find. I highly recommend this company.",
+      "category": "residential",
+      "date": "2024-01-20"
+    },
+    {
+      "id": 3,
+      "name": "Brai",
+      "rating": 5,
+      "text": "Robbie is punctual, knowledgeable and easy to understand. He walked our family through every step of the home inspection process, and made sure that there were no questions left unanswered. We would 100% use him again and refer him to our friends and family!",
+      "category": "residential",
+      "date": "2024-01-25"
+    },
+    {
+      "id": 4,
+      "name": "Tommy",
+      "rating": 5,
+      "text": "Robbie was \"First class\" at the least! Super affordable and thorough. I was with Robbie for about 3 hours during the inspection and he was explained everything in a way that was easy to understand and he was not misleading about anything. When choosing someone to do an inspection, you want someone who you can trust and someone who pays attentions to the little things. Robbie did just that and I would highly recommend him to anyone and I will for sure be using him in the future if I ever need another home inspection!",
+      "category": "residential",
+      "date": "2024-02-01"
+    },
+    {
+      "id": 5,
+      "name": "D. Johnson",
+      "rating": 5,
+      "text": "I've worked with half dozen inspectors and Robbie is by far the best: personable, professional, knowledgeable, returned all my inquiries promptly. Also liked the fact he can recommend various craftsmen and I can tell they are same high quality he is!",
+      "category": "residential",
+      "date": "2024-02-05"
+    },
+    {
+      "id": 6,
+      "name": "Ashley E.",
+      "rating": 5,
+      "text": "Hired him twice! Robbie does a great job and goes above and beyond by sharing his expertise and providing additional resources.",
+      "category": "residential",
+      "date": "2024-02-10"
+    },
+    {
+      "id": 7,
+      "name": "Amy",
+      "rating": 5,
+      "text": "Robbie was fantastic to work with! As a first time home buyer I didn't really know what to expect with the inspection, but he took the time to explain everything and did an incredibly thorough job. I would absolutely recommend him to someone else!",
+      "category": "residential",
+      "date": "2024-02-15"
+    },
+    {
+      "id": 8,
+      "name": "Andrew",
+      "rating": 5,
+      "text": "Robbie did a very thorough home inspection and the walkthrough he did with me was informative and detailed. I was able to move forward with confidence in further negotiations 💯",
+      "category": "residential",
+      "date": "2024-02-20"
+    },
+    {
+      "id": 9,
+      "name": "Suneesh",
+      "rating": 5,
+      "text": "We had a great inspection experience with First Class Home Inspections. Robbie was very thorough, and frank - which we greatly appreciated! His inspection report was very detailed and color-coded. He even included pictures he took and videos as well! Highly recommend!",
+      "category": "residential",
+      "date": "2024-02-25"
+    },
+    {
+      "id": 10,
+      "name": "Ashley D.",
+      "rating": 5,
+      "text": "Robbie was so awesome! He was very thorough and informative during our home inspection. He made sure to explain everything to us so we understood the ins and out of our new house! Would highly recommend!! He worked with our schedule so well too, very accommodating!",
+      "category": "residential",
+      "date": "2024-03-01"
+    },
+    {
+      "id": 11,
+      "name": "Hailey",
+      "rating": 5,
+      "text": "We are first-time home buyers and initially had our own inspector, but we later found out he was having surgery, so we weren't sure where to turn. I contacted Robbie, and he was super easy to schedule with—he was able to fit us in within the timeframe we needed. We couldn't make it to the inspection until the end, so we sent my father-in-law in our place. Once I arrived, Robbie took the extra time to walk me through everything again. He explained everything so clearly and even showed me each issue personally. He also took detailed photos and included everything in the report, so I didn't have to take notes or try to remember it all. The report itself was very easy to read and follow. Robbie was incredibly kind, and his personality made the whole process so much more comfortable. I can't recommend this company enough. Thank you so much, Robbie! I'll definitely be calling him again for our next inspection.",
+      "category": "residential",
+      "date": "2024-03-05"
+    },
+    {
+      "id": 12,
+      "name": "Debra",
+      "rating": 5,
+      "text": "The company name First Class Home Inspections is a perfect fit for Robbie, \"first class\"!!! Thanks to his knowledge and attention to details, while providing top notch service, I was able to make informed decisions on one of the most important purchases of my life. He is always available to answer questions and explanations, before, during, and after his process. He is wonderful working with! I highly recommend this company for your inspections!!",
+      "category": "residential",
+      "date": "2024-03-10"
+    },
+    {
+      "id": 13,
+      "name": "Tiffani",
+      "rating": 5,
+      "text": "I highly recommend First Class Home Inspection, Robbie was great. He was very detailed and explained everything thoroughly while onsite. I was surprised at the turn around time for the very detailed easy to read/understand report. Robbie provided great information with color coded guides to help understand the degree of urgency. If you are ever in need of a home inspection, First Class Home Inspection is the best choice!!",
+      "category": "residential",
+      "date": "2024-03-15"
+    },
+    {
+      "id": 14,
+      "name": "Novaley",
+      "rating": 5,
+      "text": "Extremely thorough. Very knowledgeable. Went through entire house and found everything that we needed to know and more. He explained everything that was on the report in detail and answered every question we had. I would recommend Robbie to anyone and everyone who needs a home inspection. Completely worth every penny!",
+      "category": "residential",
+      "date": "2024-03-20"
+    },
+    {
+      "id": 15,
+      "name": "Clark",
+      "rating": 5,
+      "text": "Get a home inspection!!! Robbie is a wonderful person and a first class business owner. He is thorough, professional and provided me with a slew of contacts. I cannot stress this enough; do NOT let your realtor talk you out of a home inspection!!! My realtor talked me out of an inspection because I can repair most things. Well, the seller lied their butts off and covered up tens of thousands of dollars worth of damage, close to a hundred thousand. My realtor even claimed to be a home flipper with extensive experience and informed me that the home did not need much, she even declared it was, \"Move in ready.\" Nope! Trust Robbie. Do not trust the seller and I won't trust another realtor.",
+      "category": "residential",
+      "date": "2024-03-25"
+    },
+    {
+      "id": 16,
+      "name": "Brenna",
+      "rating": 5,
+      "text": "Today we had the pleasure of completing a home inspection with First Class Home Inspections! We are first time home buyers and have been very nervous taking on this new financial journey! From the start, Robbie put us at ease. He explained everything so well and took so much off our plate. He took pictures and took awesome notes for his report. I never had to write anything down bc his report was exactly everything he said! The home is being sold by the children of a previous owner, so nobody knew anything about the house until Robbie stepped in! We are so impressed with how honest, professional, educated, and observant Robbie is. He took time to walk us through every level of the home and even the outside of the house! He explained everything in ways that we could understand, he offered many options to fix problems, and even gave us recommendations for contractors. I recommend adding on the sewer service! He fed a camera down the sewer line and found that our sewer line was broken 50 feet from the house! Life saver! We feel so much more confident with our real estate decisions now. Thank you First Class! Robbie is our hero!!",
+      "category": "residential",
+      "date": "2024-04-01"
+    },
+    {
+      "id": 17,
+      "name": "Mary D.",
+      "rating": 5,
+      "text": "Robbie did an excellent job on my home inspection. He was extremely thorough, took pictures, made recommendations, offered referrals for repair work, everything. He was overall simply awesome! I highly recommend him. He truly fulfills the name of his company!",
+      "category": "residential",
+      "date": "2024-04-05"
+    },
+    {
+      "id": 18,
+      "name": "Mary C.",
+      "rating": 5,
+      "text": "Robbie is a great asset to anyone that needs a home inspection. He is thorough and professional. He had inspected the home we were selling and the new home we built. We were very pleased both times! I highly recommend him for any inspection needs you have in the future.",
+      "category": "residential",
+      "date": "2024-04-10"
+    },
+    {
+      "id": 19,
+      "name": "Jennifer M.",
+      "rating": 5,
+      "text": "Our experience with First Class Home Inspection and Robbie Risley was nothing short of exceptional. From the ease of scheduling to the straightforward payment process, everything was handled with utmost professionalism and efficiency. Robbie provided a very detailed inspection report that was not only quick but also incredibly educational. He took the time to explain everything in a way that was easy to understand, ensuring we felt confident about the condition of our new home. The value of his service was truly worth every penny. Even our Real Estate Agent was thoroughly impressed with Robbie's thoroughness and expertise. It's clear that Robbie goes above and beyond for his clients, and we couldn't be happier with the service we received. If I could give more than 5 stars, I would! I highly recommend First Class Home Inspection and Robbie Risley to anyone in need of a top-notch home inspection. Thank you, Robbie, for making this part of our home-buying process so smooth and informative!",
+      "category": "residential",
+      "highlight": true,
+      "date": "2024-04-15"
+    },
+    {
+      "id": 20,
+      "name": "Christian",
+      "rating": 5,
+      "text": "I'm 23 years old, dabbling into commercial real estate. This is my first property and Robbie helped me before, during, and even months after the process (for an amazing price, might I add). Robbie did an excellent job inspecting the property and pointed out flaws that I didn't know about. Saved me roughly $25k after renegotiations. Very honest individual with great resources and connections. If this is your first time purchasing a home or investment property, do yourself and your pockets a favor and work with him.",
+      "category": "commercial",
+      "date": "2024-04-20"
+    },
+    {
+      "id": 21,
+      "name": "Chuck",
+      "rating": 5,
+      "text": "Great experience, very thorough and professional! Had a commercial building and residential building inspected. From initial call to final report very pleased Highly Recommend!",
+      "category": "commercial",
+      "date": "2024-04-25"
+    },
+    {
+      "id": 22,
+      "name": "Kim",
+      "rating": 5,
+      "text": "Robbie was extremely professional and knowledgeable and took the time to have a discussion with my clients and I to go over the entire inspection report from start to finish & offer recommendations for other professionals in the area.",
+      "category": "realtor",
+      "date": "2024-05-01"
+    },
+    {
+      "id": 23,
+      "name": "Janell",
+      "rating": 5,
+      "text": "My clients trust me and I trust Robbie. It's always a pleasant experience. He's thorough, professional, personable and is easy to schedule. As a real estate agent, First Class Home Inspections definitely makes my short list of recommended vendors!",
+      "category": "realtor",
+      "date": "2024-05-05"
+    },
+    {
+      "id": 24,
+      "name": "Stacy",
+      "rating": 5,
+      "text": "Knowledgeable, thorough, & professional! I would not hesitate to recommend First Class Home Inspections to my clients.",
+      "category": "realtor",
+      "date": "2024-05-10"
+    },
+    {
+      "id": 25,
+      "name": "Gary",
+      "rating": 5,
+      "text": "Robbie always does amazing work. He meets with my clients after the inspection and goes over everything in detail and answers all questions!",
+      "category": "realtor",
+      "date": "2024-05-15"
+    },
+    {
+      "id": 26,
+      "name": "Taryn Hart",
+      "rating": 5,
+      "text": "Robbie did a great job with my client's home inspection. He was very thorough and addressed any questions I had. My client was also pleased with him as well. He will definitely take the time to help you understand with any issues are. Highly recommend!",
+      "category": "realtor",
+      "company": "Realty ONE Group Platinum",
+      "date": "2024-05-20"
+    },
+    {
+      "id": 27,
+      "name": "John",
+      "rating": 5,
+      "text": "I'm a real estate agent and my client selected this company to conduct a home inspection. Robbie did a great job, provided the report very timely, and was able to work with a plumber to assess the sewer line during the home inspection. Very knowledgeable and professional home inspector.",
+      "category": "realtor",
+      "date": "2024-05-25"
+    }
+  ]
+}

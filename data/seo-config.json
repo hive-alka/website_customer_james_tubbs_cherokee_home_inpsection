@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "First Class Home Inspections - Professional Home Inspection Services in Pittsburgh, PA",
+    "description": "Trusted home inspection services in Pittsburgh, PA. Comprehensive residential and commercial inspections with detailed reports. Licensed, insured, and certified inspectors.",
+    "keywords": "home inspection, Pittsburgh PA, residential inspection, commercial inspection, property inspection, home inspector, real estate inspection",
+    "author": "First Class Home Inspections",
+    "url": "https://www.firstclasshomeinspection.com",
+    "image": "/placeholder.svg?height=630&width=1200"
+  },
+  "business": {
+    "type": "LocalBusiness",
+    "name": "First Class Home Inspections",
+    "description": "Professional home inspection services",
+    "telephone": "(570) 660-9337",
+    "email": "info@firstclasshomeinspection.com",
+    "address": {
+      "streetAddress": "1234 Oak Street",
+      "addressLocality": "Pittsburgh",
+      "addressRegion": "PA",
+      "postalCode": "15217",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "latitude": "40.4406",
+      "longitude": "-79.9959"
+    },
+    "openingHours": ["Mo-Fr 08:00-18:00", "Sa 09:00-16:00"],
+    "priceRange": "$300-$1200"
+  }
+}

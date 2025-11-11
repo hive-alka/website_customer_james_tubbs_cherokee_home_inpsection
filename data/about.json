@@ -1,0 +1,33 @@
+{
+  "company": {
+    "story": "Founded in 2020, Robbie opened First Class Home Inspections to serve the community, based on a passion for homes and to give home buyer's peace of mind. After working as an engineer for 20+ years, he decided it was time for a change and launched his new business. His desire to improve the home inspection industry and provide clients with the best customer service and results has resulted in continued success and growth of his company.",
+    "mission": "First Class Home Inspections is committed to providing thorough, professional inspections backed by high-quality, easy-to-read reports. We prioritize integrity, client education, and ongoing support, ensuring every inspection empowers our clients with the knowledge and confidence to make informed decisions. We strive for excellence by exceeding industry standards and providing peace of mind, both during and after the inspection process.",
+    "values": [
+      {
+        "title": "Integrity",
+        "description": "Honest, transparent inspections with accurate and unbiased information. We never cut corners or conceal important details, building lasting relationships through trust."
+      },
+      {
+        "title": "Professionalism",
+        "description": "Timely arrivals, clear communication, and detailed reports delivered with courtesy and respect. Our professional approach reflects our dedication to excellence."
+      },
+      {
+        "title": "Customer Focused",
+        "description": "Putting clients' needs first by explaining findings in clear, simple terms. We're always available to answer questions and guide you throughout the process."
+      },
+      {
+        "title": "Reliability and Dependability",
+        "description": "Consistent support and expert guidance before, during, and after the inspection. You can depend on us for thorough, timely reports and clear communication."
+      }
+    ]
+  },
+  "team": [
+    {
+      "name": "Mya",
+      "title": "Social Media Strategist Intern",
+      "bio": "Mya is a sophomore at Christopher Newport University, with a goal and dream of becoming a prosecution lawyer. While becoming involved at her church and school organizations, she discovered a passion for marketing and content creation, which led her to pursue an internship with Robbie at First Class Home Inspections. Mya is excited to blend her aspirations in law with her newfound interest in content creation and strategy, helping to highlight the excellent work done by First Class Home Inspections. In her spare time, she is involved with the University's student government, she's VP and Marketing Chair of the ASL Club, and she is the Women's Team Captain of the Gymnastics Club, and she enjoys photography, baking, and reading!",
+      "certifications": [],
+      "image": "/maya.jpeg"
+    }
+  ]
+}

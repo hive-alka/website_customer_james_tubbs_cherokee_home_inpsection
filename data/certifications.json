@@ -1,0 +1,21 @@
+{
+  "certifications": [
+    {
+      "name": "InterNACHI Certified Professional Inspector",
+      "organization": "International Association of Certified Home Inspectors",
+      "description": "The gold standard in home inspection certification",
+      "logo": "/internachi.png"
+    },
+    {
+      "name": "Certified Commercial Property Inspector",
+      "organization": "Certified Commercial Property Inspectors Association",
+      "description": "Specialized certification for commercial property inspections",
+      "logo": "/ccpia.png"
+    }
+  ],
+  "insurance": {
+    "liability": "$1,000,000",
+    "errors_omissions": "$1,000,000",
+    "provider": "Professional Liability Insurance Group"
+  }
+}

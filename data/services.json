@@ -1,0 +1,73 @@
+{
+  "services": [
+    {
+      "id": "single-family-inspection",
+      "name": "Single Family Home Inspection",
+      "description": "Comprehensive inspection of single-family homes including all major systems - covering the home from top to bottom, inside and out.",
+      "price": "$350",
+      "duration": "2-4 hours",
+      "includes": [
+        "Roof covering and structure",
+        "Foundation, basement, & crawlspaces",
+        "Exterior",
+        "Porches & Decks",
+        "Plumbing system",
+        "Electrical system",
+        "HVAC",
+        "Interior Living Area",
+        "Kitchen and bathrooms",
+        "Attic",
+        "Garages",
+        "And more"
+      ]
+    },
+    {
+      "id": "multi-family-inspection",
+      "name": "Multi-Family Property Inspection",
+      "description": "Thorough inspection of multi-family properties including duplexes, triplexes, and small apartment buildings with multiple units.",
+      "price": "$450",
+      "duration": "3-6 hours",
+      "includes": [
+        "Everything in Single Family Inspection, with",
+        "All unit inspections",
+        "Common area systems",
+        "Shared utilities assessment",
+        "Structural components",
+        "Electrical distribution",
+        "HVAC systems per unit",
+        "Comprehensive multi-unit report"
+      ]
+    },
+    {
+      "id": "pre-listing-inspection",
+      "name": "Pre-Listing Inspection",
+      "description": "Get ahead of potential issues before listing your home for sale.",
+      "price": "$300",
+      "duration": "2-3 hours",
+      "includes": [
+        "Everything in Single Family Inspection, with",
+        "Identify repair needs",
+        "Prevent deal delays",
+        "Increase buyer confidence",
+        "Detailed repair recommendations",
+        "Priority issue identification"
+      ]
+    },
+    {
+      "id": "commercial-inspection",
+      "name": "Commercial Property Inspection",
+      "description": "Thorough inspection of commercial properties including office buildings, retail spaces, and industrial facilities.",
+      "price": "$500",
+      "duration": "4-8 hours",
+      "includes": [
+        "Building envelope",
+        "Mechanical systems",
+        "Electrical systems",
+        "Fire safety systems",
+        "ADA compliance check",
+        "Environmental concerns",
+        "Comprehensive report"
+      ]
+    }
+  ]
+}

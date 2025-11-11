@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": "first-time-homebuyer-guide",
+      "title": "First-Time Homebuyer's Guide to Home Inspections",
+      "slug": "first-time-homebuyer-guide",
+      "excerpt": "Everything you need to know about home inspections as a first-time buyer, from what to expect to how to prepare.",
+      "content": "Buying your first home is an exciting milestone, but it can also be overwhelming. One of the most important steps in the home buying process is the home inspection...",
+      "author": "Michael Johnson",
+      "publishDate": "2024-01-15",
+      "tags": ["first-time-buyers", "home-inspection", "real-estate"],
+      "readTime": "8 min read",
+      "featured": true,
+      "image": "/placeholder.svg?height=400&width=800"
+    },
+    {
+      "id": "seasonal-home-maintenance",
+      "title": "Seasonal Home Maintenance Checklist",
+      "slug": "seasonal-home-maintenance",
+      "excerpt": "Keep your home in top condition year-round with our comprehensive seasonal maintenance checklist.",
+      "content": "Regular maintenance is key to preserving your home's value and preventing costly repairs. Here's your seasonal guide...",
+      "author": "Sarah Davis",
+      "publishDate": "2024-02-01",
+      "tags": ["maintenance", "homeowner-tips", "seasonal"],
+      "readTime": "6 min read",
+      "featured": false,
+      "image": "/placeholder.svg?height=400&width=800"
+    },
+    {
+      "id": "common-inspection-issues",
+      "title": "10 Most Common Issues Found During Home Inspections",
+      "slug": "common-inspection-issues",
+      "excerpt": "Learn about the most frequently discovered problems during home inspections and how to address them.",
+      "content": "In our years of conducting home inspections, we've seen certain issues come up repeatedly. Here are the top 10...",
+      "author": "Michael Johnson",
+      "publishDate": "2024-02-10",
+      "tags": ["inspection-issues", "home-problems", "buyer-education"],
+      "readTime": "10 min read",
+      "featured": true,
+      "image": "/placeholder.svg?height=400&width=800"
+    }
+  ]
+}

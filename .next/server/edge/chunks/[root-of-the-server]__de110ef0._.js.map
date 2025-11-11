@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\nimport type { NextRequest } from 'next/server';\n\n// Simplified middleware for static site - no authentication needed\nexport async function middleware(request: NextRequest) {\n  return NextResponse.next();\n}\n\nexport const config = {\n  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],\n};\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAIO,eAAe,WAAW,OAAoB;IACnD,OAAO,6LAAA,CAAA,eAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;KAAoD;AAChE"}}]
+}

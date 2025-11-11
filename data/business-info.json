@@ -1,0 +1,39 @@
+{
+  "name": "First Class Home Inspections",
+  "tagline": "Your Trusted Partner in Home Safety & Quality",
+  "description": "Professional home inspection services with over 15 years of experience. We provide comprehensive inspections to help you make informed decisions about your property investment.",
+  "address": {
+    "street": "",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zipCode": "",
+    "full": "Pittsburgh, PA"
+  },
+  "contact": {
+    "phone": "(570) 660-9337",
+    "email": "robbie@firstclass-homeinspections.com",
+    "website": "https://firstclass-homeinspections.estategpt.io/"
+  },
+  "hours": {
+    "monday": "7:00 AM - 7:00 PM",
+    "tuesday": "7:00 AM - 7:00 PM",
+    "wednesday": "7:00 AM - 7:00 PM",
+    "thursday": "7:00 AM - 7:00 PM",
+    "friday": "7:00 AM - 7:00 PM",
+    "saturday": "7:00 AM - 12:00 PM",
+    "sunday": "11:00 AM - 3:00 PM"
+  },
+"serviceAreas": [
+    "Greater Pittsburgh",
+    "Allegheny",
+    "Washington",
+    "Fayette",
+    "Westmoreland",
+    "Indiana",
+    "Armstrong",
+    "Butler",
+    "Beaver"
+  ],
+  "established": "2020",
+  "inspectionsCompleted": "1000+"
+}
