@@ -45,7 +45,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section - Elegant Design */}
-      <section className="relative bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-zinc-50 via-white to-zinc-100 overflow-hidden">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 opacity-5">
           <div
@@ -66,14 +66,14 @@ export default function HomePage() {
                   Trusted Since {businessInfo.established}
                 </Badge>
 
-                <h1 className="text-5xl lg:text-7xl font-light text-slate-900 leading-tight">
+                <h1 className="text-5xl lg:text-7xl font-light text-zinc-900 leading-tight">
                   Your Home's
-                  <span className="block font-semibold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent pb-2">
+                  <span className="block font-semibold bg-gradient-to-r from-blue-800 to-blue-700 bg-clip-text text-transparent pb-2">
                     Guardian Angels
                   </span>
                 </h1>
 
-                <p className="text-xl text-slate-600 leading-relaxed max-w-lg font-light">
+                <p className="text-xl text-zinc-600 leading-relaxed max-w-lg font-light">
                   Delivering peace of mind through comprehensive home evaluations and education. Our meticulous and thorough inspections provide detailed insights to help you make informed decisions about your investment.
                 </p>
               </div>
@@ -81,7 +81,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   size="lg"
-                  className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-none font-medium tracking-wide transition-all duration-300 hover:shadow-lg"
+                  className="bg-zinc-900 hover:bg-zinc-800 text-white px-8 py-4 rounded-none font-medium tracking-wide transition-all duration-300 hover:shadow-lg"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   {businessInfo.contact.phone}
@@ -89,7 +89,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-slate-300 text-slate-700 hover:bg-slate-50 px-8 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
+                  className="border-zinc-300 text-zinc-700 hover:bg-zinc-50 px-8 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
                   asChild
                 >
                   <Link href="/contact#scheduler">
@@ -100,16 +100,16 @@ export default function HomePage() {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-2 gap-8 pt-8 border-t border-slate-200">
+              <div className="grid grid-cols-2 gap-8 pt-8 border-t border-zinc-200">
                 <div>
-                  <div className="text-3xl font-light text-slate-900">{businessInfo.inspectionsCompleted}</div>
-                  <div className="text-sm text-slate-500 uppercase tracking-wide">Inspections Completed</div>
+                  <div className="text-3xl font-light text-zinc-900">{businessInfo.inspectionsCompleted}</div>
+                  <div className="text-sm text-zinc-500 uppercase tracking-wide">Inspections Completed</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-light text-slate-900">
+                  <div className="text-3xl font-light text-zinc-900">
                     {new Date().getFullYear() - Number.parseInt(businessInfo.established)}+
                   </div>
-                  <div className="text-sm text-slate-500 uppercase tracking-wide">Years of Excellence</div>
+                  <div className="text-sm text-zinc-500 uppercase tracking-wide">Years of Excellence</div>
                 </div>
               </div>
             </div>
@@ -124,10 +124,10 @@ export default function HomePage() {
                   height={600}
                   className="w-full h-auto shadow-2xl rounded-3xl"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl border border-slate-100 rounded-xl">
+                <div className="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl border border-zinc-100 rounded-xl">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    <span className="text-slate-700 font-medium">Available Today</span>
+                    <span className="text-zinc-700 font-medium">Available Today</span>
                   </div>
                 </div>
               </div>
@@ -143,11 +143,11 @@ export default function HomePage() {
           <div className="text-center mb-20">
             <div className="inline-block">
             </div>
-            <h2 className="text-4xl lg:text-5xl font-light text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 mb-6">
               Comprehensive
               <span className="block font-semibold">Inspection Services</span>
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl text-zinc-600 max-w-3xl mx-auto font-light leading-relaxed">
               From residential properties to commercial buildings, we deliver meticulous inspections that provide
               clarity and confidence in your real estate decisions.
             </p>
@@ -158,7 +158,7 @@ export default function HomePage() {
             {featuredServices.map((service, index) => (
               <Card
                 key={service.id}
-                className="group border-0 shadow-lg hover:shadow-2xl transition-all duration-500 bg-white overflow-hidden transform hover:-translate-y-2 hover:scale-105 relative"
+                className="group border-0 shadow-lg hover:shadow-2xl transition-all duration-500 bg-white overflow-hidden transform hover:-tranzinc-y-2 hover:scale-105 relative"
                 style={{
                   background: 'linear-gradient(145deg, #ffffff 0%, #f8fafc 100%)',
                   boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.1)'
@@ -174,7 +174,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                   <div className="absolute top-4 right-4">
-                    <Badge variant="secondary" className="bg-slate-100/90 backdrop-blur-sm text-slate-600 group-hover:bg-blue-100 group-hover:text-blue-700 transition-colors shadow-lg">
+                    <Badge variant="secondary" className="bg-zinc-100/90 backdrop-blur-sm text-zinc-600 group-hover:bg-zinc-100 group-hover:text-blue-700 transition-colors shadow-lg">
                       {service.duration}
                     </Badge>
                   </div>
@@ -182,16 +182,16 @@ export default function HomePage() {
 
                 <CardContent className="p-8 relative">
                   <div className="mb-6">
-                    <h3 className="text-xl font-semibold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
+                    <h3 className="text-xl font-semibold text-zinc-900 mb-2 group-hover:text-blue-700 transition-colors">
                       {service.name}
                     </h3>
-                    <p className="text-slate-600 font-light leading-relaxed">{service.description}</p>
+                    <p className="text-zinc-600 font-light leading-relaxed">{service.description}</p>
                   </div>
 
 
                   <ul className="space-y-2 mb-8">
                     {service.includes.map((item, itemIndex) => (
-                      <li key={itemIndex} className="flex items-start text-sm text-slate-600">
+                      <li key={itemIndex} className="flex items-start text-sm text-zinc-600">
                         <CheckCircle className="h-4 w-4 text-green-500 mr-3 mt-0.5 flex-shrink-0 group-hover:text-green-600 transition-colors" />
                         {item}
                       </li>
@@ -200,7 +200,7 @@ export default function HomePage() {
 
                   <Button
                     variant="outline"
-                    className="w-full border-slate-200 text-slate-700 hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 rounded-lg font-medium tracking-wide transition-all duration-300 shadow-sm hover:shadow-md"
+                    className="w-full border-zinc-200 text-zinc-700 hover:bg-zinc-50 hover:border-blue-200 hover:text-blue-700 rounded-lg font-medium tracking-wide transition-all duration-300 shadow-sm hover:shadow-md"
                     asChild
                   >
                     <Link 
@@ -231,7 +231,7 @@ export default function HomePage() {
             <Link href="/services">
               <Button
                 size="lg"
-                className="bg-slate-900 hover:bg-slate-800 text-white px-10 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
+                className="bg-zinc-900 hover:bg-zinc-800 text-white px-10 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
               >
                 View All Services
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -242,16 +242,16 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us - Elegant */}
-      <section className="py-24 bg-slate-50">
+      <section className="py-24 bg-zinc-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
             <div>
-              <h2 className="text-4xl lg:text-5xl font-light text-slate-900 mb-8">
+              <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 mb-8">
                 Excellence in
                 <span className="block font-semibold">Every Detail</span>
               </h2>
-              <p className="text-xl text-slate-600 font-light leading-relaxed mb-12">
+              <p className="text-xl text-zinc-600 font-light leading-relaxed mb-12">
                 Our commitment to precision, professionalism, and client satisfaction sets us apart in the home
                 inspection industry.
               </p>
@@ -276,11 +276,11 @@ export default function HomePage() {
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
-                      <item.icon className="h-6 w-6 text-slate-600" />
+                      <item.icon className="h-6 w-6 text-zinc-600" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
-                      <p className="text-slate-600 font-light leading-relaxed">{item.desc}</p>
+                      <h3 className="text-lg font-semibold text-zinc-900 mb-2">{item.title}</h3>
+                      <p className="text-zinc-600 font-light leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -305,7 +305,7 @@ export default function HomePage() {
       <section className="py-24 bg-gray-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-4xl lg:text-5xl font-light text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 mb-6">
               Our
               <span className="block font-semibold">Mission</span>
             </h2>
@@ -314,14 +314,14 @@ export default function HomePage() {
           <div className="max-w-5xl mx-auto space-y-16">
             {/* Goal Statement */}
             <div className="text-center">
-              <blockquote className="text-2xl lg:text-3xl text-slate-700 font-light leading-relaxed italic">
+              <blockquote className="text-2xl lg:text-3xl text-zinc-700 font-light leading-relaxed italic">
                 "Our goal is to provide every client with an education on their home and peace of mind about their investment."
               </blockquote>
             </div>
 
             {/* Mission Statement */}
-            <div className="bg-slate-50 rounded-2xl p-12 lg:p-16">
-              <p className="text-xl lg:text-2xl text-slate-700 font-light leading-relaxed text-center">
+            <div className="bg-zinc-50 rounded-2xl p-12 lg:p-16">
+              <p className="text-xl lg:text-2xl text-zinc-700 font-light leading-relaxed text-center">
                 First Class Home Inspections is committed to providing thorough, professional inspections backed by 
                 high-quality, easy-to-read reports. We prioritize integrity, client education, and ongoing support, 
                 ensuring every inspection empowers our clients with the knowledge and confidence to make informed decisions. 
@@ -351,10 +351,10 @@ export default function HomePage() {
               ].map((value, index) => (
                 <div key={index} className="text-center group">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white shadow-lg rounded-full mb-6 group-hover:shadow-xl transition-all duration-300">
-                    <value.icon className="h-8 w-8 text-slate-600 group-hover:text-blue-600 transition-colors" />
+                    <value.icon className="h-8 w-8 text-zinc-600 group-hover:text-blue-800 transition-colors" />
                   </div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">{value.title}</h3>
-                  <p className="text-slate-600 font-light leading-relaxed">{value.desc}</p>
+                  <h3 className="text-xl font-semibold text-zinc-900 mb-3">{value.title}</h3>
+                  <p className="text-zinc-600 font-light leading-relaxed">{value.desc}</p>
                 </div>
               ))}
             </div>
@@ -366,7 +366,7 @@ export default function HomePage() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl lg:text-5xl font-light text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 mb-6">
               Trusted by
               <span className="block font-semibold">
                 {selectedCategory === 'realtor' ? 'Real Estate Professionals' : 
@@ -431,7 +431,7 @@ export default function HomePage() {
 
           {/* Highlighted Testimonial (if exists and matches category) */}
           {highlightedTestimonial && (selectedCategory === 'all' || highlightedTestimonial.category === selectedCategory) && (
-            <Card className="mb-12 border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 shadow-xl">
+            <Card className="mb-12 border-2 border-blue-200 bg-gradient-to-br from-zinc-50 to-zinc-100 shadow-xl">
               <CardContent className="p-10">
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center">
@@ -439,13 +439,13 @@ export default function HomePage() {
                       <Star key={i} className="h-6 w-6 text-yellow-400 fill-current" />
                     ))}
                   </div>
-                  <Badge className="bg-blue-600 text-white">Featured Review</Badge>
+                  <Badge className="bg-blue-800 text-white">Featured Review</Badge>
                 </div>
-                <blockquote className="text-lg text-slate-800 font-light leading-relaxed mb-6 italic">
+                <blockquote className="text-lg text-zinc-800 font-light leading-relaxed mb-6 italic">
                   "{highlightedTestimonial.text}"
                 </blockquote>
                 <div className="border-t border-blue-200 pt-6">
-                  <div className="font-semibold text-slate-900 text-lg">{highlightedTestimonial.name}</div>
+                  <div className="font-semibold text-zinc-900 text-lg">{highlightedTestimonial.name}</div>
                   <Badge variant="secondary" className="mt-2 bg-white text-blue-700">
                     {highlightedTestimonial.category === 'residential' ? 'Homeowner' :
                      highlightedTestimonial.category === 'commercial' ? 'Business Owner' :
@@ -479,22 +479,22 @@ export default function HomePage() {
                 {/* First set of testimonials */}
                 {filteredTestimonials.map((testimonial) => (
                   <div key={testimonial.id} className="flex-shrink-0 w-96 px-4">
-                    <Card className="border-0 shadow-sm hover:shadow-lg transition-all duration-300 bg-slate-50 h-full">
+                    <Card className="border-0 shadow-sm hover:shadow-lg transition-all duration-300 bg-zinc-50 h-full">
                       <CardContent className="p-8">
                         <div className="flex items-center mb-6">
                           {[...Array(testimonial.rating)].map((_, i) => (
                             <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                           ))}
                         </div>
-                        <blockquote className="text-slate-700 font-light leading-relaxed mb-6 italic line-clamp-6">
+                        <blockquote className="text-zinc-700 font-light leading-relaxed mb-6 italic line-clamp-6">
                           "{testimonial.text}"
                         </blockquote>
-                        <div className="border-t border-slate-200 pt-6">
-                          <div className="font-semibold text-slate-900">{testimonial.name}</div>
+                        <div className="border-t border-zinc-200 pt-6">
+                          <div className="font-semibold text-zinc-900">{testimonial.name}</div>
                           {testimonial.company && (
-                            <div className="text-sm text-slate-600">{testimonial.company}</div>
+                            <div className="text-sm text-zinc-600">{testimonial.company}</div>
                           )}
-                          <Badge variant="secondary" className="mt-2 bg-blue-50 text-blue-700 text-xs">
+                          <Badge variant="secondary" className="mt-2 bg-zinc-50 text-blue-700 text-xs">
                             {testimonial.category === 'residential' ? 'Homeowner' :
                              testimonial.category === 'commercial' ? 'Commercial Client' :
                              'Real Estate Professional'}
@@ -507,22 +507,22 @@ export default function HomePage() {
                 {/* Duplicate set for seamless loop */}
                 {filteredTestimonials.map((testimonial) => (
                   <div key={`duplicate-${testimonial.id}`} className="flex-shrink-0 w-96 px-4">
-                    <Card className="border-0 shadow-sm hover:shadow-lg transition-all duration-300 bg-slate-50 h-full">
+                    <Card className="border-0 shadow-sm hover:shadow-lg transition-all duration-300 bg-zinc-50 h-full">
                       <CardContent className="p-8">
                         <div className="flex items-center mb-6">
                           {[...Array(testimonial.rating)].map((_, i) => (
                             <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                           ))}
                         </div>
-                        <blockquote className="text-slate-700 font-light leading-relaxed mb-6 italic line-clamp-6">
+                        <blockquote className="text-zinc-700 font-light leading-relaxed mb-6 italic line-clamp-6">
                           "{testimonial.text}"
                         </blockquote>
-                        <div className="border-t border-slate-200 pt-6">
-                          <div className="font-semibold text-slate-900">{testimonial.name}</div>
+                        <div className="border-t border-zinc-200 pt-6">
+                          <div className="font-semibold text-zinc-900">{testimonial.name}</div>
                           {testimonial.company && (
-                            <div className="text-sm text-slate-600">{testimonial.company}</div>
+                            <div className="text-sm text-zinc-600">{testimonial.company}</div>
                           )}
-                          <Badge variant="secondary" className="mt-2 bg-blue-50 text-blue-700 text-xs">
+                          <Badge variant="secondary" className="mt-2 bg-zinc-50 text-blue-700 text-xs">
                             {testimonial.category === 'residential' ? 'Homeowner' :
                              testimonial.category === 'commercial' ? 'Commercial Client' :
                              'Real Estate Professional'}
@@ -539,7 +539,7 @@ export default function HomePage() {
               {displayTestimonials.map((testimonial) => (
                 <Card
                   key={testimonial.id}
-                  className="border-0 shadow-sm hover:shadow-lg transition-all duration-300 bg-slate-50"
+                  className="border-0 shadow-sm hover:shadow-lg transition-all duration-300 bg-zinc-50"
                 >
                   <CardContent className="p-8">
                     <div className="flex items-center mb-6">
@@ -547,15 +547,15 @@ export default function HomePage() {
                         <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                       ))}
                     </div>
-                    <blockquote className="text-slate-700 font-light leading-relaxed mb-6 italic line-clamp-6">
+                    <blockquote className="text-zinc-700 font-light leading-relaxed mb-6 italic line-clamp-6">
                       "{testimonial.text}"
                     </blockquote>
-                    <div className="border-t border-slate-200 pt-6">
-                      <div className="font-semibold text-slate-900">{testimonial.name}</div>
+                    <div className="border-t border-zinc-200 pt-6">
+                      <div className="font-semibold text-zinc-900">{testimonial.name}</div>
                       {testimonial.company && (
-                        <div className="text-sm text-slate-600">{testimonial.company}</div>
+                        <div className="text-sm text-zinc-600">{testimonial.company}</div>
                       )}
-                      <Badge variant="secondary" className="mt-2 bg-blue-50 text-blue-700 text-xs">
+                      <Badge variant="secondary" className="mt-2 bg-zinc-50 text-blue-700 text-xs">
                         {testimonial.category === 'residential' ? 'Homeowner' :
                          testimonial.category === 'commercial' ? 'Commercial Client' :
                          'Real Estate Professional'}
@@ -571,7 +571,7 @@ export default function HomePage() {
             <Button
               size="lg"
               variant="outline"
-              className="border-slate-300 text-slate-700 hover:bg-slate-50 px-8 py-3 rounded-full font-medium tracking-wide transition-all duration-300"
+              className="border-zinc-300 text-zinc-700 hover:bg-zinc-50 px-8 py-3 rounded-full font-medium tracking-wide transition-all duration-300"
               asChild
             >
               <a 
@@ -595,7 +595,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section - Elegant */}
-      <section className="py-24 bg-slate-900">
+      <section className="py-24 bg-zinc-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
@@ -604,7 +604,7 @@ export default function HomePage() {
                 Ready to Schedule
                 <span className="block font-semibold">Your Inspection?</span>
               </h2>
-              <p className="text-xl text-slate-300 font-light leading-relaxed mb-12 max-w-2xl mx-auto lg:mx-0">
+              <p className="text-xl text-zinc-300 font-light leading-relaxed mb-12 max-w-2xl mx-auto lg:mx-0">
                 Take the first step towards peace of mind. Contact our professional team today for a comprehensive property
                 inspection.
               </p>
@@ -612,7 +612,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button
                   size="lg"
-                  className="bg-white text-slate-900 hover:bg-slate-100 px-10 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
+                  className="bg-white text-zinc-900 hover:bg-zinc-100 px-10 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   {businessInfo.contact.phone}
@@ -620,7 +620,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-slate-900 px-10 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
+                  className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-zinc-900 px-10 py-4 rounded-none font-medium tracking-wide transition-all duration-300"
                   asChild
                 >
                   <Link href="/contact#scheduler">
@@ -649,7 +649,7 @@ export default function HomePage() {
       <div className="fixed bottom-6 right-6 z-50">
         <Button
           size="lg"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
+          className="bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
           asChild
         >
           <Link href="/contact#scheduler">

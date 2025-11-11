@@ -32,7 +32,7 @@ export function Header() {
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-blue-100" : "bg-white shadow-sm"
+        isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-zinc-200" : "bg-white shadow-sm"
       }`}
     >
       {/* Top bar with gradient */}
@@ -91,19 +91,19 @@ export function Header() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative text-gray-700 hover:text-blue-900 font-medium transition-all duration-300 group"
+                  className="relative text-gray-700 hover:text-blue-700 font-medium transition-all duration-300 group"
                 >
                   {item.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-400 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-800 to-blue-700 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               ) : (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="relative text-gray-700 hover:text-blue-900 font-medium transition-all duration-300 group"
+                  className="relative text-gray-700 hover:text-blue-700 font-medium transition-all duration-300 group"
                 >
                   {item.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-400 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-800 to-blue-700 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               )
             ))}
@@ -116,7 +116,7 @@ export function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-blue-900 p-2 rounded-lg hover:bg-blue-50 transition-colors"
+              className="text-gray-700 hover:text-blue-700 p-2 rounded-lg hover:bg-zinc-50 transition-colors"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -134,7 +134,7 @@ export function Header() {
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-blue-900 font-medium px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors"
+                    className="text-gray-700 hover:text-blue-700 font-medium px-4 py-2 rounded-lg hover:bg-zinc-50 transition-colors"
                   >
                     {item.name}
                   </a>
@@ -142,7 +142,7 @@ export function Header() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-gray-700 hover:text-blue-900 font-medium px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors"
+                    className="text-gray-700 hover:text-blue-700 font-medium px-4 py-2 rounded-lg hover:bg-zinc-50 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}

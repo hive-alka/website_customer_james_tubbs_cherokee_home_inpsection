@@ -17,7 +17,7 @@ export default function ServicesPage() {
       {/* Hero Section - Enhanced */}
       <section className="animated-bg text-white py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="absolute top-20 left-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-zinc-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,7 +29,7 @@ export default function ServicesPage() {
               </span>{" "}
               Services
             </h1>
-            <p className="text-lg text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg text-zinc-100 max-w-3xl mx-auto leading-relaxed">
               Comprehensive inspection services for residential and commercial properties. We provide detailed reports
               to help you make informed decisions with confidence and peace of mind.
             </p>
@@ -38,7 +38,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid - Enhanced */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-24 bg-gradient-to-br from-gray-50 to-zinc-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {services.services.map((service, index) => {
@@ -83,7 +83,7 @@ export default function ServicesPage() {
 
               return (
                 <Card key={service.id} className="modern-card hover-lift group overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700"></div>
+                  <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-800 via-zinc-600 to-blue-800 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700"></div>
 
                   {/* Service Image */}
                   <div className="relative h-48 w-full">
@@ -98,10 +98,10 @@ export default function ServicesPage() {
                   <CardHeader className="pb-4">
                     <div className="flex justify-between items-start mb-3">
                       <div className="flex-1">
-                        <CardTitle className="text-xl md:text-2xl group-hover:text-blue-600 transition-colors mb-2">
+                        <CardTitle className="text-xl md:text-2xl group-hover:text-blue-800 transition-colors mb-2">
                           {service.name}
                         </CardTitle>
-                        <Badge className="bg-blue-100 text-blue-900 px-2 py-1 text-sm">
+                        <Badge className="bg-zinc-100 text-zinc-900 px-2 py-1 text-sm">
                           <Clock className="h-3 w-3 mr-1" />
                           {service.duration}
                         </Badge>
@@ -114,7 +114,7 @@ export default function ServicesPage() {
 
                   <div className="mb-6">
                     <h4 className="font-bold text-lg mb-3 flex items-center">
-                      <Zap className="h-4 w-4 mr-2 text-blue-600" />
+                      <Zap className="h-4 w-4 mr-2 text-blue-800" />
                       What's Included:
                     </h4>
                     <ul className="space-y-2">
@@ -138,7 +138,7 @@ export default function ServicesPage() {
                     </Button>
                     <Button
                       variant="outline"
-                      className="flex-1 gradient-border font-semibold rounded-full text-base hover:bg-blue-50"
+                      className="flex-1 gradient-border font-semibold rounded-full text-base hover:bg-zinc-50"
                       asChild
                     >
                       <Link 
@@ -173,12 +173,12 @@ export default function ServicesPage() {
       </section>
 
       {/* Sample Reports Section */}
-      <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section className="py-16 bg-gradient-to-br from-zinc-50 to-zinc-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               More{" "}
-              <span className="text-blue-600">Sample Reports</span>
+              <span className="text-blue-800">Sample Reports</span>
             </h2>Similarly in the home page. 
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Review our detailed inspection reports to understand what you can expect from our services
@@ -189,15 +189,15 @@ export default function ServicesPage() {
             {/* Wood Destroying Insect Report */}
             <Card className="hover:shadow-lg transition-all duration-300 bg-white border-0 shadow-md">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="h-8 w-8 text-purple-600" />
+                <div className="w-16 h-16 bg-zinc-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Award className="h-8 w-8 text-zinc-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Wood Destroying Insect</h3>
                 <p className="text-gray-600 mb-6 text-sm leading-relaxed">
                   See a complete NPMA-33 form inspection report for termites and other wood-destroying insects
                 </p>
                 <Button 
-                  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full"
+                  className="w-full bg-zinc-600 hover:bg-zinc-700 text-white font-semibold rounded-full"
                   asChild
                 >
                   <Link 
@@ -241,15 +241,15 @@ export default function ServicesPage() {
             {/* More Sample Reports */}
             <Card className="hover:shadow-lg transition-all duration-300 bg-white border-0 shadow-md">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileCheck className="h-8 w-8 text-blue-600" />
+                <div className="w-16 h-16 bg-zinc-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FileCheck className="h-8 w-8 text-blue-800" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">More Samples</h3>
                 <p className="text-gray-600 mb-6 text-sm leading-relaxed">
                   Browse additional sample reports across all our inspection services and specialties
                 </p>
                 <Button 
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full"
+                  className="w-full bg-blue-800 hover:bg-blue-700 text-white font-semibold rounded-full"
                   asChild
                 >
                   <Link 
@@ -274,7 +274,7 @@ export default function ServicesPage() {
 
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Additional Testing & 
-              <span className="text-blue-600"> Specialty Services</span>
+              <span className="text-blue-800"> Specialty Services</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Comprehensive testing services to ensure your home's safety and your peace of mind
@@ -307,7 +307,7 @@ export default function ServicesPage() {
             </Card>
 
             {/* Wood-Destroying Insect Inspections */}
-            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-purple-50 to-violet-50 overflow-hidden">
+            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-zinc-50 to-violet-50 overflow-hidden">
               <div className="relative h-32 w-full">
                 <Image
                   src="/addon_services/termite.png"
@@ -317,21 +317,21 @@ export default function ServicesPage() {
                 />
               </div>
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="h-6 w-6 text-purple-600" />
+                <div className="w-12 h-12 bg-zinc-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Award className="h-6 w-6 text-zinc-600" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Wood-Destroying Insect (WDI)</h3>
                 <p className="text-sm text-gray-600 mb-4 leading-relaxed">
                   Protect from termites, carpenter ants, bees, and beetles. NPMA-33 form for FHA, VA, USDA loans.
                 </p>
-                <Badge className="bg-purple-100 text-purple-800 text-xs px-2 py-1">
+                <Badge className="bg-zinc-100 text-zinc-800 text-xs px-2 py-1">
                   Structure Guard
                 </Badge>
               </CardContent>
             </Card>
 
             {/* Sewer Camera Inspections */}
-            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-gray-50 to-slate-50 overflow-hidden">
+            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-gray-50 to-zinc-50 overflow-hidden">
               <div className="relative h-32 w-full">
                 <Image
                   src="/addon_services/sewer_cam.png"
@@ -355,7 +355,7 @@ export default function ServicesPage() {
             </Card>
 
             {/* Water Quality Testing */}
-            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-blue-50 to-cyan-50 overflow-hidden">
+            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-zinc-50 to-cyan-50 overflow-hidden">
               <div className="relative h-32 w-full">
                 <Image
                   src="/addon_services/water.png"
@@ -365,14 +365,14 @@ export default function ServicesPage() {
                 />
               </div>
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Droplets className="h-6 w-6 text-blue-600" />
+                <div className="w-12 h-12 bg-zinc-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Droplets className="h-6 w-6 text-blue-800" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Water Quality Testing</h3>
                 <p className="text-sm text-gray-600 mb-4 leading-relaxed">
                   Verify water safety from basic FHA/VA tests to advanced Health Scans for wells and ponds.
                 </p>
-                <Badge className="bg-blue-100 text-blue-800 text-xs px-2 py-1">
+                <Badge className="bg-zinc-100 text-blue-700 text-xs px-2 py-1">
                   Health Protection
                 </Badge>
               </CardContent>
@@ -427,7 +427,7 @@ export default function ServicesPage() {
             </Card>
 
             {/* Pre-Drywall Inspections */}
-            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-indigo-50 to-blue-50 overflow-hidden">
+            <Card className="hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-zinc-100 to-zinc-50 overflow-hidden">
               <div className="relative h-32 w-full">
                 <Image
                   src="/addon_services/drywall.png"
@@ -437,14 +437,14 @@ export default function ServicesPage() {
                 />
               </div>
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Eye className="h-6 w-6 text-indigo-600" />
+                <div className="w-12 h-12 bg-zinc-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Eye className="h-6 w-6 text-blue-700" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Pre-Drywall Inspections</h3>
                 <p className="text-sm text-gray-600 mb-4 leading-relaxed">
                   New construction inspection of framing, electrical, plumbing, HVAC before drywall installation.
                 </p>
-                <Badge className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1">
+                <Badge className="bg-zinc-100 text-zinc-800 text-xs px-2 py-1">
                   New Construction
                 </Badge>
               </CardContent>
@@ -495,11 +495,11 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Area Section */}
-      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-zinc-50 to-zinc-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our <span className="text-blue-600">Service Areas</span>
+              Our <span className="text-blue-800">Service Areas</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               We proudly serve homeowners, investors, and real estate professionals throughout Western Pennsylvania with comprehensive inspection services.
@@ -530,8 +530,8 @@ export default function ServicesPage() {
             <div className="order-1 lg:order-2">
               <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-                    <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-8 h-8 bg-zinc-100 rounded-full flex items-center justify-center mr-3">
+                    <svg className="w-4 h-4 text-blue-800" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -556,8 +556,8 @@ export default function ServicesPage() {
                     "Fayette",
                     "Somerset"
                   ].map((area, index) => (
-                    <div key={index} className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors duration-200">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                    <div key={index} className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-zinc-50 transition-colors duration-200">
+                      <div className="w-2 h-2 bg-blue-800 rounded-full mr-3"></div>
                       <span className="text-gray-700 font-medium">{area}</span>
                     </div>
                   ))}
@@ -574,7 +574,7 @@ export default function ServicesPage() {
                       <p className="text-sm text-gray-600 leading-relaxed">
                         <strong className="text-gray-900">Outside our primary areas?</strong> We may still be able to serve you! 
                         Additional travel fees may apply for locations beyond our standard service radius. 
-                        <Link href="/contact" className="text-blue-600 hover:text-blue-700 font-medium ml-1">
+                        <Link href="/contact" className="text-blue-800 hover:text-blue-700 font-medium ml-1">
                           Contact us to discuss
                         </Link>
                       </p>
@@ -599,7 +599,7 @@ export default function ServicesPage() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">Custom</span>{" "}
             Inspection Package?
           </h2>
-          <p className="text-lg text-blue-100 mb-8 leading-relaxed">
+          <p className="text-lg text-zinc-100 mb-8 leading-relaxed">
             We can customize our services to meet your specific needs. Contact us to discuss your requirements and get a
             personalized solution.
           </p>
@@ -614,7 +614,7 @@ export default function ServicesPage() {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-slate-900 px-8 py-3 rounded-full font-bold text-lg transition-all duration-300"
+              className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-zinc-900 px-8 py-3 rounded-full font-bold text-lg transition-all duration-300"
               asChild
             >
               <Link href="/contact#scheduler">
@@ -630,7 +630,7 @@ export default function ServicesPage() {
       <div className="fixed bottom-6 right-6 z-50">
         <Button
           size="lg"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
+          className="bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
           asChild
         >
           <Link href="/contact#scheduler">

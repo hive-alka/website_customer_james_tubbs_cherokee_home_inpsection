@@ -14,7 +14,7 @@ export default function ContactPage() {
       {/* Hero Section - Enhanced */}
       <section className="animated-bg text-white py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="absolute top-20 left-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-zinc-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,7 +26,7 @@ export default function ContactPage() {
               </span>{" "}
               Today
             </h1>
-            <p className="text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-2xl text-zinc-100 max-w-4xl mx-auto leading-relaxed">
               Ready to schedule your inspection? Get in touch with us today. We're here to answer your questions and
               provide expert guidance.
             </p>
@@ -46,20 +46,20 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-start">
-                  <Phone className="h-6 w-6 text-blue-900 mr-4 mt-1" />
+                  <Phone className="h-6 w-6 text-zinc-900 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold">Call or Text</h3>
-                    <a href={`tel:${businessInfo.contact.phone}`} className="text-blue-900 hover:underline">
+                    <a href={`tel:${businessInfo.contact.phone}`} className="text-zinc-900 hover:underline">
                       {businessInfo.contact.phone}
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <Mail className="h-6 w-6 text-blue-900 mr-4 mt-1" />
+                  <Mail className="h-6 w-6 text-zinc-900 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <a href={`mailto:${businessInfo.contact.email}`} className="text-blue-900 hover:underline">
+                    <a href={`mailto:${businessInfo.contact.email}`} className="text-zinc-900 hover:underline">
                       {businessInfo.contact.email}
                     </a>
                     <p className="text-sm text-gray-600">We'll respond within 24 hours</p>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <MapPin className="h-6 w-6 text-blue-900 mr-4 mt-1" />
+                  <MapPin className="h-6 w-6 text-zinc-900 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold">Address</h3>
                     <p className="text-gray-700">{businessInfo.address.full}</p>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                 <div className="grid grid-cols-2 gap-3">
                   {businessInfo.serviceAreas.map((area, index) => (
                     <div key={index} className="flex items-center text-sm text-gray-700">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-blue-800 rounded-full mr-2 flex-shrink-0"></div>
                       {area}
                     </div>
                   ))}
@@ -99,7 +99,7 @@ export default function ContactPage() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Clock className="h-6 w-6 text-blue-900 mr-2" />
+                <Clock className="h-6 w-6 text-zinc-900 mr-2" />
                 Business Hours
               </CardTitle>
             </CardHeader>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <div className="flex justify-between items-center">
                       <span className="font-medium text-gray-700">Monday - Friday</span>
-                      <span className="font-semibold text-blue-900">{businessInfo.hours.monday}</span>
+                      <span className="font-semibold text-zinc-900">{businessInfo.hours.monday}</span>
                     </div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ export default function ContactPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <div className="flex justify-between items-center">
                       <span className="font-medium text-gray-700">Saturday</span>
-                      <span className="font-semibold text-blue-900">Call to inquire</span>
+                      <span className="font-semibold text-zinc-900">Call to inquire</span>
                     </div>
                   </div>
                 </div>
@@ -125,14 +125,14 @@ export default function ContactPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <div className="flex justify-between items-center">
                       <span className="font-medium text-gray-700">Sunday</span>
-                      <span className="font-semibold text-blue-900">Call to inquire</span>
+                      <span className="font-semibold text-zinc-900">Call to inquire</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="mt-6 bg-blue-50 p-4 rounded-lg">
+              <div className="mt-6 bg-zinc-50 p-4 rounded-lg">
                 <p className="text-sm text-gray-700">
-                  <span className="font-semibold text-blue-900">Flexible Scheduling:</span> We can often accommodate special days and times to fit busy schedules and out-of-town clients. Call or text us to discuss your needs.
+                  <span className="font-semibold text-zinc-900">Flexible Scheduling:</span> We can often accommodate special days and times to fit busy schedules and out-of-town clients. Call or text us to discuss your needs.
                 </p>
               </div>
             </CardContent>
@@ -171,14 +171,14 @@ export default function ContactPage() {
       </section>
 
       {/* Emergency Contact */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-zinc-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Need an Emergency Inspection?</h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-zinc-100 mb-8">
             We offer emergency inspection services for urgent situations. Contact us immediately for same-day service
             availability.
           </p>
-          <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50">
+          <Button size="lg" className="bg-white text-zinc-900 hover:bg-zinc-50">
             <Phone className="mr-2 h-5 w-5" />
             Emergency Line: {businessInfo.contact.phone}
           </Button>
@@ -189,7 +189,7 @@ export default function ContactPage() {
       <div className="fixed bottom-6 right-6 z-50">
         <Button
           size="lg"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
+          className="bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
           asChild
         >
           <a href="#scheduler">

@@ -16,7 +16,7 @@ export default function GalleryPage() {
       {/* Hero Section - Enhanced */}
       <section className="animated-bg text-white py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="absolute top-20 left-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-zinc-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,7 +31,7 @@ export default function GalleryPage() {
                 Gallery
               </span>
             </h1>
-            <p className="text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-2xl text-zinc-100 max-w-4xl mx-auto leading-relaxed">
               See our professional inspectors in action. From residential homes to commercial properties, we bring the
               same level of thoroughness and expertise to every inspection.
             </p>
@@ -45,7 +45,7 @@ export default function GalleryPage() {
           {gallery.categories.map((category, categoryIndex) => (
             <div key={categoryIndex} className="mb-16">
               <div className="text-center mb-12">
-                <Badge className="bg-blue-100 text-blue-900 mb-4">{category.name}</Badge>
+                <Badge className="bg-zinc-100 text-zinc-900 mb-4">{category.name}</Badge>
                 <h2 className="text-3xl font-bold text-gray-900">{category.name}</h2>
               </div>
 
@@ -76,7 +76,7 @@ export default function GalleryPage() {
       <div className="fixed bottom-6 right-6 z-50">
         <Button
           size="lg"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
+          className="bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium tracking-wide"
           asChild
         >
           <Link href="/contact#scheduler">
