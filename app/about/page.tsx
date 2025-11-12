@@ -6,7 +6,7 @@ import { CTASection } from "@/components/cta-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CheckCircle, Star, Users, Phone, Wrench, Zap, Hammer, Home, Paintbrush, Droplets, Flame, ShieldCheck, Drill, Settings } from "lucide-react"
+import { CheckCircle, Star, Users, Phone, Wrench, Zap, Hammer, Home, Paintbrush, Droplets, Flame, ShieldCheck, Drill, Settings, Mail, MapPin, Award, Building, TestTube, Sun, Wind, Trees } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import about from "../../data/about.json"
@@ -174,52 +174,6 @@ export default function AboutPage() {
                     {value.description}
                   </p>
                 </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
-            <p className="text-lg text-gray-600">Experienced professionals dedicated to your peace of mind</p>
-          </div>
-
-          <div className={`grid grid-cols-1 md:grid-cols-2 gap-12 ${about.team.length % 2 !== 0 ? 'md:last:col-span-2 md:last:max-w-2xl md:last:mx-auto' : ''}`}>
-            {about.team.map((member, index) => (
-              <Card key={index} className={`overflow-hidden ${about.team.length % 2 !== 0 && index === about.team.length - 1 ? 'md:col-span-2 md:max-w-2xl md:mx-auto' : ''}`}>
-                <div className="md:flex">
-                  <div className="md:w-1/3">
-                    <Image
-                      src={member.image || "/placeholder.svg"}
-                      alt={member.name}
-                      width={300}
-                      height={300}
-                      className="w-full h-64 md:h-full object-cover"
-                    />
-                  </div>
-                  <CardContent className="md:w-2/3 p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
-                    <p className="text-zinc-900 font-semibold mb-4">{member.title}</p>
-                    <p className="text-gray-600 mb-4">{member.bio}</p>
-
-                    {member.certifications && member.certifications.length > 0 && (
-                      <div>
-                        <h4 className="font-semibold mb-2">Certifications:</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {member.certifications.map((cert, certIndex) => (
-                            <Badge key={certIndex} variant="secondary" className="text-xs">
-                              {cert}
-                            </Badge>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                  </CardContent>
-                </div>
               </Card>
             ))}
           </div>

@@ -6,12 +6,13 @@ import { CTASection } from "@/components/cta-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Star, Shield, Clock, CheckCircle, Phone, ArrowRight, Award, FileCheck, Users, Camera, TrendingUp, Calendar, Search, FileText, MessageCircle } from "lucide-react"
+import { Star, Shield, Clock, CheckCircle, Phone, ArrowRight, Award, FileCheck, Users, Camera, TrendingUp, Calendar, Search, FileText, MessageCircle, Mail, MapPin, Building, TestTube, Sun, Wind, Trees, ShieldCheck, Droplets } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import businessInfo from "../data/business-info.json"
 import services from "../data/services.json"
+import about from "../data/about.json"
 
 export default function HomePage() {
   const featuredServices = services.services.slice(0, 3)
@@ -84,11 +85,14 @@ export default function HomePage() {
               <div className="space-y-8 max-w-xl mx-auto md:mx-0">
                 <div className="space-y-6">
                   {/* Certified Master Inspector Label */}
-                  <div>
+                  <div className="flex flex-wrap items-center gap-3 justify-center md:justify-start">
                     <p className="text-sm font-semibold text-blue-600 uppercase tracking-wider"
                        style={{ textShadow: '0 2px 4px rgba(255, 255, 255, 0.9)' }}>
                       InterNACHI Certified Master Inspector
                     </p>
+                    <span className="text-sm font-semibold text-zinc-700 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm">
+                      1000+ Inspections
+                    </span>
                   </div>
 
                   <div>
@@ -385,161 +389,155 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* What Sets Us Apart */}
-      <section className="py-24 bg-zinc-50">
+      {/* Meet Your Inspector - Enhanced Section */}
+      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 mb-6">
-              What Sets <span className="font-semibold">Us Apart</span>
-            </h2>
-            <p className="text-xl text-zinc-600 font-light leading-relaxed max-w-3xl mx-auto">
-              Experience the Cherokee Home Inspection difference.
-            </p>
-          </div>
-
-          {/* 6-Card Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                icon: Clock,
-                title: "Same-Day Reports",
-                desc: "Comprehensive inspection reports delivered within hours, not days.",
-              },
-              {
-                icon: Camera,
-                title: "Advanced Technology",
-                desc: "State-of-the-art inspection software, thermal imaging, and comprehensive photo documentation.",
-              },
-              {
-                icon: TrendingUp,
-                title: "10+ Years of Experience",
-                desc: "Years of experience serving Arkansas homeowners with trusted, thorough inspections.",
-              },
-              {
-                icon: Shield,
-                title: "Integrity",
-                desc: "Honest, transparent reporting you can trust.",
-              },
-              {
-                icon: FileCheck,
-                title: "Education",
-                desc: "Empowering you with knowledge about your property.",
-              },
-              {
-                icon: Star,
-                title: "Excellence",
-                desc: "Meticulous attention to every detail.",
-              },
-            ].map((item, index) => (
-              <Card key={index} className="border-0 shadow-md hover:shadow-xl transition-all duration-300 bg-white">
-                <CardContent className="p-6 text-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 bg-blue-50 rounded-full mb-4">
-                    <item.icon className="h-7 w-7 text-blue-600" />
+          {about.team.map((member, index) => (
+            <div key={index}>
+              {/* Main Inspector Card */}
+              <Card className="overflow-hidden shadow-xl border-0 mb-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+                  {/* Photo Section - Larger */}
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-blue-800/10"></div>
+                    <Image
+                      src={member.image || "/placeholder.svg"}
+                      alt={member.name}
+                      width={800}
+                      height={900}
+                      className="w-full h-full object-cover min-h-[600px]"
+                    />
                   </div>
-                  <h3 className="text-lg font-semibold text-zinc-900 mb-3">{item.title}</h3>
-                  <p className="text-sm text-zinc-600 font-light leading-relaxed">{item.desc}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Meet the Owner - James Tubbs */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Left Content - Image */}
-            <div className="relative order-2 lg:order-1">
-              <div className="relative w-full max-w-md mx-auto">
-                <Image
-                  src="/james_tubbs.jpg"
-                  alt="James Tubbs - Co-owner and InterNACHI Certified Master Inspector"
-                  width={500}
-                  height={600}
-                  className="w-full h-auto shadow-2xl rounded-lg object-cover"
-                />
-                {/* Credentials Badge */}
-                <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-lg shadow-xl">
-                  <div className="flex items-center gap-3">
-                    <Award className="h-8 w-8" />
-                    <div>
-                      <div className="font-semibold text-sm">Certified</div>
-                      <div className="text-xs opacity-90">Master Inspector</div>
+                  {/* Content Section */}
+                  <CardContent className="p-8 lg:p-12">
+                    <div className="mb-8">
+                      <h2 className="text-3xl lg:text-4xl font-light text-zinc-900 mb-6">
+                        Meet Your <span className="font-semibold text-blue-600">Inspector</span>
+                      </h2>
+                      <p className="text-lg text-zinc-600 mb-6">Experienced professional dedicated to your peace of mind</p>
+                    </div>
+
+                    <div className="mb-6">
+                      <h3 className="text-3xl font-bold text-zinc-900 mb-2">{member.name}</h3>
+                      <p className="text-xl text-blue-600 font-semibold mb-4">{member.title}</p>
+
+                      {/* Credibility Stats */}
+                      <div className="flex flex-wrap gap-4 mb-6">
+                        <div className="flex items-center gap-2 bg-blue-50 px-4 py-2 rounded-full">
+                          <Award className="w-5 h-5 text-blue-600" />
+                          <span className="text-sm font-semibold text-zinc-700">
+                            {new Date().getFullYear() - Number.parseInt(businessInfo.established)}+ Years Experience
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-2 bg-green-50 px-4 py-2 rounded-full">
+                          <CheckCircle className="w-5 h-5 text-green-600" />
+                          <span className="text-sm font-semibold text-zinc-700">
+                            {businessInfo.inspectionsCompleted} Inspections
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-2 bg-yellow-50 px-4 py-2 rounded-full">
+                          <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
+                          <span className="text-sm font-semibold text-zinc-700">5.0 Google Rating</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p className="text-gray-700 leading-relaxed mb-8 text-lg">{member.bio}</p>
+
+
+                    {/* Area Served */}
+                    <div className="flex items-start gap-3 text-gray-600 bg-gray-50 p-4 rounded-lg">
+                      <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                      <div>
+                        <span className="font-semibold text-zinc-900">Serving: </span>
+                        <span>Cherokee Village, Hardy, Ash Flat, and surrounding areas</span>
+                      </div>
+                    </div>
+                  </CardContent>
+                </div>
+              </Card>
+
+              {/* Certifications - 2 Column Layout */}
+              {member.certifications && member.certifications.length > 0 && (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  {/* Left Column - Primary Licenses */}
+                  <div className="bg-white rounded-2xl shadow-lg p-8">
+                    <div className="flex items-center gap-2 mb-6">
+                      <ShieldCheck className="h-6 w-6 text-blue-600" />
+                      <h3 className="text-xl font-bold text-zinc-900">Primary Licenses</h3>
+                    </div>
+                    <div className="space-y-3">
+                      {member.certifications.filter(cert =>
+                        cert.includes("Arkansas Licensed") ||
+                        cert.includes("Master Inspector") ||
+                        cert.includes("Better Business Bureau")
+                      ).map((cert, certIndex) => (
+                        <div key={certIndex} className="flex items-start gap-3 bg-blue-50 p-3 rounded-lg">
+                          <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm text-zinc-700">{cert}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Professional Memberships in Left Column */}
+                    <div className="mt-8">
+                      <div className="flex items-center gap-2 mb-6">
+                        <Users className="h-6 w-6 text-purple-600" />
+                        <h3 className="text-xl font-bold text-zinc-900">Professional Memberships</h3>
+                      </div>
+                      <div className="space-y-3">
+                        {member.certifications.filter(cert =>
+                          cert.includes("AAREI") ||
+                          cert.includes("Association")
+                        ).map((cert, certIndex) => (
+                          <div key={certIndex} className="flex items-start gap-3 bg-purple-50 p-3 rounded-lg">
+                            <CheckCircle className="h-5 w-5 text-purple-600 mt-0.5 flex-shrink-0" />
+                            <span className="text-sm text-zinc-700">{cert}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Right Column - Specialized Services */}
+                  <div className="bg-white rounded-2xl shadow-lg p-8">
+                    <div className="flex items-center gap-2 mb-6">
+                      <Award className="h-6 w-6 text-green-600" />
+                      <h3 className="text-xl font-bold text-zinc-900">Specialized Services</h3>
+                    </div>
+                    <div className="space-y-3">
+                      {member.certifications.filter(cert =>
+                        cert.includes("Mold") ||
+                        cert.includes("Radon") ||
+                        cert.includes("Solar") ||
+                        cert.includes("Well") ||
+                        cert.includes("Septic") ||
+                        cert.includes("Log Homes") ||
+                        cert.includes("Drone") ||
+                        cert.includes("Multi-Unit")
+                      ).map((cert, certIndex) => (
+                        <div key={certIndex} className="flex items-start gap-3 bg-green-50 p-3 rounded-lg">
+                          <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm text-zinc-700">{cert}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Certification Count in Right Column */}
+                    <div className="mt-8 text-center">
+                      <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-50 to-purple-50 px-6 py-3 rounded-full border-2 border-blue-200">
+                        <Award className="h-5 w-5 text-blue-600" />
+                        <span className="font-semibold text-zinc-900">
+                          {member.certifications.length} Professional Certifications
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              )}
             </div>
-
-            {/* Right Content - Bio */}
-            <div className="order-1 lg:order-2">
-              <div className="inline-block mb-6">
-                <Badge className="bg-blue-100 text-blue-800 px-4 py-2 text-sm">Meet Your Inspector</Badge>
-              </div>
-
-              <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 mb-6">
-                Hello and
-                <span className="block font-semibold">Welcome!</span>
-              </h2>
-
-              <div className="space-y-6 text-lg text-zinc-700 font-light leading-relaxed">
-                <p>
-                  I am <span className="font-semibold text-zinc-900">James Tubbs</span>, co-owner of Cherokee Home Inspection LLC.
-                  I am a licensed home inspector in Arkansas and an <span className="font-semibold text-zinc-900">InterNACHI Certified Master Inspector</span>,
-                  and a member of the Arkansas Association of Real Estate Inspectors. I inspect every home as if it were my own,
-                  reporting on all aspects of the property, both major and minor.
-                </p>
-              </div>
-
-              {/* Professional Credentials */}
-              <div className="mt-10 space-y-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Shield className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-zinc-900">Licensed in Arkansas</div>
-                    <div className="text-sm text-zinc-600">State Licensed Home Inspector</div>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Award className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-zinc-900">InterNACHI Certified Master Inspector</div>
-                    <div className="text-sm text-zinc-600">Highest Professional Certification</div>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Users className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-zinc-900">AAREI Member</div>
-                    <div className="text-sm text-zinc-600">Arkansas Association of Real Estate Inspectors</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-10">
-                <Button
-                  size="lg"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base font-semibold transition-all duration-300 hover:shadow-xl rounded-full"
-                  asChild
-                >
-                  <Link href="/about">
-                    Learn More About Us
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
