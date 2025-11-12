@@ -2,6 +2,7 @@
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { CTASection } from "@/components/cta-section"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
@@ -51,8 +52,8 @@ export default function FaqPage() {
               Everything You Need
               <span className="block font-semibold">to Know</span>
             </h2>
-            <p className="text-xl text-zinc-600 font-light leading-relaxed">
-              Get clear, detailed answers to help you understand our inspection process and make informed decisions
+            <p className="text-xl text-zinc-600 font-light leading-relaxed max-w-3xl mx-auto">
+              At CHEROKEE HOME INSPECTION LLC we do our best to answer all of your questions. Below you will find a list of what we believe are the most frequently asked questions. If you have any questions that have not been answered below, do not hesitate to contact us.
             </p>
           </div>
 
@@ -147,6 +148,8 @@ export default function FaqPage() {
           </div>
         </div>
       </section>
+
+      <CTASection />
 
       {/* Fixed Floating CTA Button */}
       <div className="fixed bottom-6 right-6 z-50">

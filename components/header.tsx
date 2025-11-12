@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone, Mail, Sparkles } from "lucide-react"
 import businessInfo from "../data/business-info.json"
@@ -10,6 +11,8 @@ import businessInfo from "../data/business-info.json"
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const pathname = usePathname()
+  const isHomePage = pathname === "/"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,18 +24,21 @@ export function Header() {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Commercial Inspections", href: "/investors" },
     { name: "Services", href: "/services" },
     { name: "About", href: "/about" },
     { name: "FAQ", href: "/faq" },
-    { name: "Blog", href: "https://medium.com/@estategpt", external: true },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ]
 
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-zinc-200" : "bg-white shadow-sm"
+        isScrolled
+          ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-zinc-200"
+          : isHomePage
+            ? "bg-transparent"
+            : "bg-white shadow-sm"
       }`}
     >
       {/* Top bar with gradient */}
@@ -68,15 +74,15 @@ export function Header() {
 
       {/* Main navigation */}
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-2">
           <div className="flex items-center">
             <Link href="/" className="flex items-center group">
               <Image
-                src="/logo_img.jpg"
-                alt="First Class Home Inspections Logo"
+                src="/logo.jpg"
+                alt="Cherokee Home Inspection LLC Logo"
                 width={360}
                 height={120}
-                className="h-16 w-auto hover:scale-105 transition-transform"
+                className="h-20 w-auto hover:scale-105 transition-transform"
                 priority
               />
             </Link>

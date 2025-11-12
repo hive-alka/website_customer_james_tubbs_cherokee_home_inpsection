@@ -2,108 +2,88 @@
   "faqs": [
     {
       "id": 1,
-      "question": "What is a home inspection?",
-      "answer": "A home inspection is a thorough visual assessment of a property's condition, focusing on its major systems and structural integrity, along with checking details such as the electric receptacles, plumbing fixtures, and window operation. It helps identify any existing or potential issues."
+      "question": "How long does the home inspection take?",
+      "answer": "A typical visual inspection should take 3 to 4 hours to complete. This can vary, given the current condition and size of the home, the accessibility of mechanical systems, and so on. As a courtesy to sellers, we recommend that they be informed of the timeframe in a pre-purchase home inspection situation."
     },
     {
       "id": 2,
-      "question": "I'm new to this and I don't know what to do. Where do I start?",
-      "answer": "You called the right place! We specialize in catering the entire process to you to make it smooth, simple, and stress-free. Call now and we'll explain and answer all of your questions."
+      "question": "What do you examine?",
+      "answer": "We visually inspect the major systems of the house. These include the Roof, Exterior, Structure, Electrical, Heating, Cooling, Plumbing, Insulation, and Interior. Our goal is to identify any existing major problems that would affect a typical buyer's decision to purchase."
     },
     {
       "id": 3,
-      "question": "Why get a home inspection? I have friends and family who can help me.",
-      "answer": "While friends and family may have good intentions, a home inspection by a certified professional provides an unbiased, comprehensive evaluation. We are experienced and trained to spot issues that may not be immediately visible to untrained eyes, and our inspection report is based on industry standards, ensuring that you make an informed decision about the property. Additionally, if you're a buyer, our report helps you to negotiate repairs or the cost of the home."
+      "question": "How much does an inspection cost?",
+      "answer": "Our typical fee for a Residential Home Inspection is $450.00 for homes up to 2,300 sq. ft. However, some factors will affect the fee, based on the square footage of the home and the distance we drive to the location, as well as the age of the home. We will discuss this up front - there are never any hidden fees with Cherokee Home Inspection LLC. If you are comparing home inspection firms, the fee charged should not be the deciding factor unless the level of service offered is identical. Remember, you are considering a major purchase and your choice of home inspector should be based on getting the best value, not just the best price. Please look at our list of Training/Certifications."
     },
     {
       "id": 4,
-      "question": "What area do you cover?",
-      "answer": "Allegheny County and all surrounding counties! If you're not sure if we serve your area, please ask."
+      "question": "What is included in the fee?",
+      "answer": "Complete home inspection conducted by an experienced Licensed professional. Comprehensive written home inspection report. Reports include video/pictures of the defects. Did I mention that the report gets to you that day, or within 24 hrs. of the Inspection. We use a top rated Home Inspection Software (SPECTORA) which allows us to do our agreements, as well as send the reports via email/text to you and your realtor, also you can pay via credit card."
     },
     {
       "id": 5,
-      "question": "I'm selling my house soon. Should I get an inspection?",
-      "answer": "Absolutely! Having a pre-listing inspection is very beneficial. It allows you to identify and address any issues before listing your property, potentially avoiding delays during negotiations and giving you the opportunity to make repairs ahead of time. This can help speed up the selling process and reduce the chance of surprises during the buyer's inspection. A house with minimal significant deficiencies gives a potential buyer a warm feeling that the house has been well maintained and gives them peace of mind about moving forward with the purchase."
+      "question": "Can I follow along?",
+      "answer": "Definitely. We encourage you to attend. The inspection is a valuable learning experience for most home buyers. We ask if possible for the clients to come the last hour of the inspection, so you can be shown in person the problems and concerns that were found up to that point of the inspection. This allows the Inspector to keep his train of thought on the issues of the home for the first 3 hours and then can go over everything with you the client. Note: We can't let you on the ladders nor recommend you go into the crawlspaces of the home, besides being dirty, there are things that might bite, that call the crawlspace their home."
     },
     {
       "id": 6,
-      "question": "Does the home inspection cover _____ on my house?",
-      "answer": "Our inspections cover the home's exterior, interior, porches & decks, basement & foundation, crawlspaces, structural components, roofing, plumbing, electrical systems, heating and cooling (HVAC), windows, insulation, attic, kitchens, bathrooms, and lots of details throughout the house."
+      "question": "Do I have to take notes?",
+      "answer": "You don't have to take notes during the visual inspection. We will document everything in our written report software. It's much better to follow the inspector through, listening to his comments to make sure you understand. It's also a great opportunity to ask questions and to clarify anything that confuses you."
     },
     {
       "id": 7,
-      "question": "I need a radon test, a pest inspection, a sewer camera, a mold test, and/or other services. Can you do that?",
-      "answer": "YES! We can manage any service or inspection you need. We are a one-stop shop. If you don't see a service listed, just ask and we'll make it happen!"
+      "question": "Can I ask questions?",
+      "answer": "Absolutely! You may want to bring some questions that you have regarding the home. You should also feel free to stop the inspector and ask questions as you go. If the inspector's comments or explanations are not clear, please ask for clarification."
     },
     {
       "id": 8,
-      "question": "What tools do you use? A thermal imaging camera? A moisture meter?",
-      "answer": "Yes, all of that! We carry all of the necessary tools to inspect every nook and cranny of your home. We buy high-end tools to ensure accurate and precise results and information."
+      "question": "What should I wear?",
+      "answer": "You should dress comfortably and be prepared to spend roughly 1-2 hours walking through the home with the inspector. You won't have to climb on the roof or go into the attic, or crawlspace so your clothes won't get dirty."
     },
     {
       "id": 9,
-      "question": "I'm building a new house. Should I get an inspection?",
-      "answer": "Absolutely! We recommend a pre-drywall inspection, a completion inspection, and an 11-month warranty inspection. Just because the house is new, doesn't mean its perfect. Let us give you peace of mind that the contractors didn't take any shortcuts and that your home is in great shape!"
+      "question": "Can I bring my family?",
+      "answer": "We recommend that you not bring your family; this is a technical evaluation, and you will be interacting with the inspector - the fewer distractions, the better."
     },
     {
       "id": 10,
-      "question": "Can you inspect a multi-family home?",
-      "answer": "Yes, we frequently inspect apartments! A duplex, triplex, and even four or more units is no problem for us!"
+      "question": "Do I get a written report? When?",
+      "answer": "You will receive a written report. It would be unfair to ask you to remember all of the things we cover during a home inspection. The report includes a summary of the condition of the home and details on all the major systems of the home. It is delivered within 24 hours after the completion of the inspection, via email and a link in a text message and email, and you can download it at your convenience."
     },
     {
       "id": 11,
-      "question": "What does your home inspection cost? It seems that other companies are much cheaper.",
-      "answer": "We promise high-value results at competitive prices. Our prices our competitive amongst the best inspectors in Pittsburgh. Beware that the requirements to be a home inspector in PA are minimal, so if you found a 'cheap' home inspector, you will likely get a 'cheap' inspection!"
+      "question": "If it's really bad, will you tell us not to buy the house?",
+      "answer": "No. Our goal is to report on the condition of the house, indicating potential repairs. Ultimately, it is your decision as to whether or not you buy the house. The home inspection is very important but it is only one piece of the puzzle. Only you know all of the factors at play. Your real estate professional can help you here."
     },
     {
       "id": 12,
-      "question": "Should I be present during the inspection?",
-      "answer": "Please! We encourage clients to attend the inspection in its entirety for several reasons: It gives you several hours to explore the home, learn about it, and ask all of your questions. It's an opportunity to ask questions about what we find and explain, and gain firsthand insights about the home's maintenance needs and operational details. It allows us to explain any deficiencies in person. Receiving an inspection report can feel overwhelming, but when you're there, you'll already know what will be in it, so now the report becomes a reminder of what we talked about."
+      "question": "Do you offer a warranty on the house?",
+      "answer": "A home inspection is a professional opinion based on less-than-complete information. It's a little like getting a check-up from your doctor. It improves your odds of good health but there is no guarantee or warranty. Some problems can only be discovered by living in a house; they cannot be discovered during a home inspection. For example, some shower stalls leak when people use the shower but don't leak when you simply turn on the shower. Some roofs and basements only leak when specific weather conditions exist. Some problems will only be discovered when carpets are lifted, furniture is moved or finishes are removed. As such, we cannot and do not offer a warranty on the house. Home warranty programs are available from others. I'm sure your realtor would be happy to help you contact a warranty company."
     },
     {
       "id": 13,
-      "question": "What if I can't attend the inspection?",
-      "answer": "That is ok too! We often work with remote clients and investors. After you review the report, we can schedule a call or virtual meeting to talk about the inspection and answer all of your questions."
+      "question": "How many inspectors do you have?",
+      "answer": "We currently have 1 full-time certified professional available to perform inspections and he is also a co-owner of the business. The inspector has extensive backgrounds and experience in construction, restoration and inspection, and has been through a comprehensive training program. Continuing education with InterNACHI is also a part of every good home inspector's life. Please take a look at his accredited classes/training listed on this website - it is updated regularly."
     },
     {
       "id": 14,
-      "question": "How long does the inspection take?",
-      "answer": "Most homes take about 3 hours, but this varies based on the size of the home, the condition of the home, and how much conversation we have. We will not limit the time for any reason, and we will be there until we thoroughly cover the home and answer every one of your questions!"
+      "question": "Are you members of any professional organization?",
+      "answer": "Our inspectors are State licensed and members of professional organizations. We are a member of InterNACHI, one of the largest National Certified Professional Inspector organizations. We are also a member of AAREI Arkansas Association of Real Estate Inspectors. We are also accredited with the Arkansas Better Business Bureau and have an A RATING. We are also a member of the International Association of Certified Indoor Air Consultants (IAC2 CERTIFIED)."
     },
     {
       "id": 15,
-      "question": "Can a friend or family member join me at the inspection or be there for me?",
-      "answer": "The short answer is yes. However, local MLS rules restrict attendees to only those on the sales contract. We allow them to be there, but there's some simple paperwork to allow this. Just ask either we'll help you, or your realtor can."
+      "question": "How many days notice do I need to give you?",
+      "answer": "Our team is ready to serve you quickly. However, when the sale of a home is conditional on the results of a home inspection, we recommend that you allow at least three days (3) to arrange for a home inspection. The buyer is usually down to (10) days when we get the call so with a busy schedule, please do your best to contact us as quickly as possible so we can get your potential home inspected."
     },
     {
       "id": 16,
-      "question": "How long does the inspection process and report take? We only have a short time to get this done and respond to the seller.",
-      "answer": "It's fast! We understand the urgency and will accommodate your tight timeline. We'll schedule your home inspection for the next few days, and our reports are guaranteed same-day! If you're a buyer, it's best to schedule immediately when you go under contract."
+      "question": "What is the cost of a Radon Test?",
+      "answer": "The radon test takes 48hrs to complete, and the cost is $159.00. This will include us setting up the test and returning 48 hrs later to retrieve the test/equipment. We will get you the results back to you in the form of a report."
     },
     {
       "id": 17,
-      "question": "How do I schedule?",
-      "answer": "You can easily schedule online with this link. If you don't see a time that works for you or if you have questions, please call or text, and we will help! If you need special hours, like an evening or weekend, we are happy to accommodate, but you will need to call or text, and there is no added fee for those hours."
-    },
-    {
-      "id": 18,
-      "question": "Will the seller fix everything you find?",
-      "answer": "No. The seller will not fix every defect we find during the inspection. The report will guide you to negotiate on some repairs and/or cost of the home. Your realtor is the professional for this and they're experienced to guide to the best results, and we can certainly help with this and answer your questions."
-    },
-    {
-      "id": 19,
-      "question": "How do I handle repairs and how do I find contractors?",
-      "answer": "We understand that repair needs can be a concern after an inspection. To assist, we maintain a carefully selected network of reliable contractors we can refer to you. These professionals are known for their excellent communication, fair pricing, high-quality materials, and dependable work. You can trust that they will provide the same level of service and professionalism that we strive for in every inspection."
-    },
-    {
-      "id": 20,
-      "question": "Are you licensed and insured?",
-      "answer": "YES! While PA does not issue a license to be a Home Inspector, we meet and exceed the required certifications for the state and for every service we offer. Our insurance exceeds the minimum requirements, providing peace of mind to our clients throughout the inspection process. We are happy to provide those details if you'd like."
-    },
-    {
-      "id": 21,
-      "question": "What is your background, experience, and credentials?",
-      "answer": "Great question, and thank you for asking! We love to brag about what makes us the best in the industry! Our About Me section will tell you all you want to know!"
+      "question": "What is the cost of mold inspection/sampling?",
+      "answer": "The cost of mold sampling is $295.00 for Air Sampling, this includes (2) air samples (1) from outside used as a baseline for the test and (1) indoors, this is on homes around 1,000 sq. ft. If the home is larger, (1) additional air sample will be needed per extra 1,000 sq. ft. and the extra cost will be $75.00. If you need just a swab sample of what could be mold then the price is $229.00 with a minimum of (2) samples needed included in the price. If you need to add a swab sample with your indoor mold air samples it's $75.00 per swab/sample."
     }
   ]
 }

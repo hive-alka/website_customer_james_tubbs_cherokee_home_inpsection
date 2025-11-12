@@ -2,6 +2,7 @@
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { CTASection } from "@/components/cta-section"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -82,11 +83,11 @@ export default function AboutPage() {
             </div>
             <div>
               <Image
-                src="/profile_img.png"
-                alt="About First Class Home Inspections"
+                src="/cherokee_van.jpg"
+                alt="Cherokee Home Inspection LLC - Professional Service"
                 width={600}
                 height={500}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg object-cover"
               />
             </div>
           </div>
@@ -380,6 +381,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <CTASection />
 
       {/* Fixed Floating CTA Button */}
       <div className="fixed bottom-6 right-6 z-50">

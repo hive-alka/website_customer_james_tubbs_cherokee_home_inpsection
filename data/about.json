@@ -1,33 +1,68 @@
 {
   "company": {
-    "story": "Founded in 2020, Robbie opened First Class Home Inspections to serve the community, based on a passion for homes and to give home buyer's peace of mind. After working as an engineer for 20+ years, he decided it was time for a change and launched his new business. His desire to improve the home inspection industry and provide clients with the best customer service and results has resulted in continued success and growth of his company.",
-    "mission": "First Class Home Inspections is committed to providing thorough, professional inspections backed by high-quality, easy-to-read reports. We prioritize integrity, client education, and ongoing support, ensuring every inspection empowers our clients with the knowledge and confidence to make informed decisions. We strive for excellence by exceeding industry standards and providing peace of mind, both during and after the inspection process.",
+    "story": "With Cherokee Home Inspection LLC, you are choosing a Certified Master Inspector who provides high-quality home inspection services to the Cherokee Village, Hardy, Ash Flat and the surrounding area. We take great pride in doing a thorough job and going beyond our clients' expectations.\n\nOur home inspection experience is inclusive. We encourage you to join us during the inspection. However, we respectfully request you show up at the last hour of the (4) hours inspection. I will have a good idea of the issues with the home and we can go over them and I can answer any questions you might have. Having you with us on the inspection also gives us an opportunity to provide you with tips on home care and maintenance. For instance, you can learn how to change the furnace filter, turn off the water, gas, and electricity in an emergency.\n\nA home inspection is valuable, but unless the experience is well-documented, most people won't remember all the important details. That's why we provide a comprehensive written report to serve as your guide for as long as you own the home. It not only describes the house components and their condition, but also provides insight into what improvements will be necessary, and when.\n\nWe use State of the Art Home Inspection Software, and your pre-inspection contract, along with your finished home inspection report, can be sent to you in an email, or in a text link, and this report can be sent to your real estate agent at your request as well. The agent can begin to make a repair request on your behalf based on the findings in the report. This software is great for the person working, that can't afford to take off work to sign paperwork. This fits today's lifestyle where everything is handled via your cell phone, or your computer.\n\nOur report can also help you setup a home maintenance program to take care of one of the most significant investments most people make. Our goal is to ensure that you can live safely, comfortably, and efficiently in your new home.",
+    "mission": "Cherokee Home Inspection LLC is committed to providing thorough, professional inspections backed by detailed, easy-to-read reports delivered within 24 hours. We inspect every home as if it were our own, reporting on all aspects of the property, both major and minor. We prioritize integrity, client education, and ongoing support, ensuring every inspection empowers our clients with the knowledge and confidence to make informed decisions about their property.",
+    "philosophy": "I inspect every home as if it were my own, reporting on all aspects of the property, both major and minor. We encourage clients to attend the last hour of the inspection to review findings together and discuss maintenance tips for their new home.",
     "values": [
       {
-        "title": "Integrity",
-        "description": "Honest, transparent inspections with accurate and unbiased information. We never cut corners or conceal important details, building lasting relationships through trust."
+        "title": "Thoroughness",
+        "description": "Every inspection is conducted with meticulous attention to detail, examining all major systems including roof, exterior, structure, electrical, heating, cooling, plumbing, insulation, and interior components."
       },
       {
-        "title": "Professionalism",
-        "description": "Timely arrivals, clear communication, and detailed reports delivered with courtesy and respect. Our professional approach reflects our dedication to excellence."
+        "title": "Client Education",
+        "description": "We take time to explain our findings in clear terms and encourage questions throughout the process. Our goal is to empower you with knowledge about your property."
       },
       {
-        "title": "Customer Focused",
-        "description": "Putting clients' needs first by explaining findings in clear, simple terms. We're always available to answer questions and guide you throughout the process."
+        "title": "Advanced Technology",
+        "description": "Using state-of-the-art inspection software, thermal imaging, and comprehensive documentation with photos and videos, we provide detailed insights into every aspect of your property."
       },
       {
-        "title": "Reliability and Dependability",
-        "description": "Consistent support and expert guidance before, during, and after the inspection. You can depend on us for thorough, timely reports and clear communication."
+        "title": "Prompt Service",
+        "description": "Reports are delivered within 24 hours of inspection completion via email or text link, providing you with the information you need when you need it."
+      },
+      {
+        "title": "Professional Integrity",
+        "description": "We provide honest, unbiased assessments to help you make informed decisions. Our goal is to report on the condition of the home, not to influence your purchasing decision."
+      }
+    ],
+    "promises": [
+      {
+        "title": "I WILL NOT BE AN ALARMIST",
+        "description": "I will provide objective, balanced information about the property's condition without unnecessary fear-mongering."
+      },
+      {
+        "title": "I WILL EXPLAIN WHAT I OBSERVE",
+        "description": "Every finding will be clearly explained in terms you can understand, with photos and videos for documentation."
+      },
+      {
+        "title": "I WILL RESPECT YOUR TIME",
+        "description": "Inspections are thorough yet efficient, typically taking 3-4 hours, with reports delivered within 24 hours."
+      },
+      {
+        "title": "THE GOLDEN RULE",
+        "description": "I treat every client and every home with the same care and respect I would want for myself and my family."
       }
     ]
   },
   "team": [
     {
-      "name": "Mya",
-      "title": "Social Media Strategist Intern",
-      "bio": "Mya is a sophomore at Christopher Newport University, with a goal and dream of becoming a prosecution lawyer. While becoming involved at her church and school organizations, she discovered a passion for marketing and content creation, which led her to pursue an internship with Robbie at First Class Home Inspections. Mya is excited to blend her aspirations in law with her newfound interest in content creation and strategy, helping to highlight the excellent work done by First Class Home Inspections. In her spare time, she is involved with the University's student government, she's VP and Marketing Chair of the ASL Club, and she is the Women's Team Captain of the Gymnastics Club, and she enjoys photography, baking, and reading!",
-      "certifications": [],
-      "image": "/maya.jpeg"
+      "name": "James Tubbs",
+      "title": "Certified Master Inspector & Co-Owner",
+      "bio": "James Tubbs is a Certified Master Inspector with extensive experience in home inspection, construction, and restoration. He leads Cherokee Home Inspection LLC with a commitment to thoroughness and client education. James holds multiple professional certifications and is dedicated to helping clients make informed decisions about their property investments. His approach combines technical expertise with a personal touch, ensuring every client receives the detailed information they need.",
+      "certifications": [
+        "Arkansas Licensed Home Inspector (HI-2288)",
+        "InterNACHI Certified Master Inspector (CMI #21093004)",
+        "IAC2 Mold/Radon Certification (#94193)",
+        "Solar Systems Certification (#10192501)",
+        "Arkansas Association of Real Estate Inspectors (AAREI) Member",
+        "Better Business Bureau (A Rating)",
+        "Well Inspection Certification",
+        "Multi-Unit Inspection Certification",
+        "Septic Systems Certification",
+        "Log Homes Certification",
+        "Drone Inspection Certification"
+      ],
+      "image": "/james_tubbs.jpg"
     }
   ]
 }

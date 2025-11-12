@@ -1,30 +1,46 @@
 {
   "site": {
-    "title": "First Class Home Inspections - Professional Home Inspection Services in Pittsburgh, PA",
-    "description": "Trusted home inspection services in Pittsburgh, PA. Comprehensive residential and commercial inspections with detailed reports. Licensed, insured, and certified inspectors.",
-    "keywords": "home inspection, Pittsburgh PA, residential inspection, commercial inspection, property inspection, home inspector, real estate inspection",
-    "author": "First Class Home Inspections",
-    "url": "https://www.firstclasshomeinspection.com",
-    "image": "/placeholder.svg?height=630&width=1200"
+    "title": "Cherokee Home Inspection LLC - Professional Home Inspection Services in Hardy, AR",
+    "description": "Trusted home inspection services in Cherokee Village, Hardy, and surrounding Arkansas areas. Certified Master Inspector James Tubbs provides comprehensive residential inspections, radon testing, mold inspection, septic testing, and more. IAC2 certified, NACHI CMI, state licensed.",
+    "keywords": "home inspection Hardy AR, home inspector Cherokee Village, Arkansas home inspection, residential inspection Hardy, radon testing Arkansas, mold inspection Hardy AR, septic testing Cherokee Village, thermal imaging inspection, James Tubbs inspector, IAC2 certified inspector Arkansas, NACHI certified master inspector, home inspection Ash Flat, home inspection Evening Shade, home inspection Cave City",
+    "author": "Cherokee Home Inspection LLC",
+    "url": "https://cherokeehomeinspection.net",
+    "image": "/og-image.jpg"
   },
   "business": {
     "type": "LocalBusiness",
-    "name": "First Class Home Inspections",
-    "description": "Professional home inspection services",
-    "telephone": "(570) 660-9337",
-    "email": "info@firstclasshomeinspection.com",
+    "name": "Cherokee Home Inspection LLC",
+    "description": "Professional home inspection services led by James Tubbs, Certified Master Inspector. Serving Cherokee Village, Hardy, Ash Flat, Evening Shade, Cave City, and surrounding Arkansas areas.",
+    "telephone": "501.215.8700",
+    "alternativeTelephone": "870.710.3766",
+    "email": "JT@CHEROKEEHOMEINSPECTION.NET",
     "address": {
-      "streetAddress": "1234 Oak Street",
-      "addressLocality": "Pittsburgh",
-      "addressRegion": "PA",
-      "postalCode": "15217",
+      "streetAddress": "71 RED FOX RD.",
+      "addressLocality": "HARDY",
+      "addressRegion": "AR",
+      "postalCode": "",
       "addressCountry": "US"
     },
     "geo": {
-      "latitude": "40.4406",
-      "longitude": "-79.9959"
+      "latitude": "36.3184",
+      "longitude": "-91.4796"
     },
-    "openingHours": ["Mo-Fr 08:00-18:00", "Sa 09:00-16:00"],
-    "priceRange": "$300-$1200"
+    "openingHours": ["Mo-Sa 08:00-22:00"],
+    "priceRange": "$159-$500",
+    "areaServed": [
+      "Cherokee Village, AR",
+      "Hardy, AR",
+      "Ash Flat, AR",
+      "Evening Shade, AR",
+      "Cave City, AR",
+      "Sharp County, AR",
+      "Fulton County, AR"
+    ],
+    "certifications": [
+      "Arkansas Licensed Home Inspector (HI-2288)",
+      "InterNACHI Certified Master Inspector (CMI #21093004)",
+      "IAC2 Mold/Radon Certification (#94193)",
+      "Solar Systems Certification (#10192501)"
+    ]
   }
 }

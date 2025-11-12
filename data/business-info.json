@@ -1,39 +1,56 @@
 {
-  "name": "First Class Home Inspections",
-  "tagline": "Your Trusted Partner in Home Safety & Quality",
-  "description": "Professional home inspection services with over 15 years of experience. We provide comprehensive inspections to help you make informed decisions about your property investment.",
+  "name": "Cherokee Home Inspection LLC",
+  "tagline": "Your Home Is Your Most Significant Asset",
+  "description": "Professional home inspection services led by James Tubbs, Certified Master Inspector. We inspect every home as if it were our own, providing comprehensive evaluations to help you make informed decisions about your property investment.",
   "address": {
-    "street": "",
-    "city": "Pittsburgh",
-    "state": "PA",
+    "street": "71 RED FOX RD.",
+    "city": "HARDY",
+    "state": "AR",
     "zipCode": "",
-    "full": "Pittsburgh, PA"
+    "full": "71 RED FOX RD. HARDY AR"
   },
   "contact": {
-    "phone": "(570) 660-9337",
-    "email": "robbie@firstclass-homeinspections.com",
-    "website": "https://firstclass-homeinspections.estategpt.io/"
+    "phone": "501.215.8700",
+    "phoneSecondary": "870.710.3766",
+    "email": "JT@CHEROKEEHOMEINSPECTION.NET",
+    "website": "https://cherokeehomeinspection.net"
   },
   "hours": {
-    "monday": "7:00 AM - 7:00 PM",
-    "tuesday": "7:00 AM - 7:00 PM",
-    "wednesday": "7:00 AM - 7:00 PM",
-    "thursday": "7:00 AM - 7:00 PM",
-    "friday": "7:00 AM - 7:00 PM",
-    "saturday": "7:00 AM - 12:00 PM",
-    "sunday": "11:00 AM - 3:00 PM"
+    "monday": "8:00 AM - 10:00 PM",
+    "tuesday": "8:00 AM - 10:00 PM",
+    "wednesday": "8:00 AM - 10:00 PM",
+    "thursday": "8:00 AM - 10:00 PM",
+    "friday": "8:00 AM - 10:00 PM",
+    "saturday": "8:00 AM - 10:00 PM",
+    "sunday": "Closed",
+    "timezone": "CST",
+    "note": "Flexible scheduling available - call to inquire"
   },
-"serviceAreas": [
-    "Greater Pittsburgh",
-    "Allegheny",
-    "Washington",
-    "Fayette",
-    "Westmoreland",
-    "Indiana",
-    "Armstrong",
-    "Butler",
-    "Beaver"
+  "serviceAreas": [
+    "Cherokee Village",
+    "Hardy",
+    "Ash Flat",
+    "Evening Shade",
+    "Cave City",
+    "Surrounding Arkansas Areas"
   ],
-  "established": "2020",
-  "inspectionsCompleted": "1000+"
+  "inspector": {
+    "name": "James Tubbs",
+    "title": "Certified Master Inspector & Co-Owner",
+    "credentials": {
+      "arLicense": "HI-2288",
+      "nachiCMI": "21093004",
+      "iac2MoldRadon": "94193",
+      "solarSystems": "10192501"
+    },
+    "affiliations": [
+      "InterNACHI Certified Master Inspector",
+      "IAC2 Mold/Radon Certification",
+      "Solar Systems Certification",
+      "Arkansas Association of Real Estate Inspectors (AAREI)",
+      "Better Business Bureau (A Rating)"
+    ]
+  },
+  "established": "2015",
+  "inspectionsCompleted": "2000+"
 }

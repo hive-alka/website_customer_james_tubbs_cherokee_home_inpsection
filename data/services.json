@@ -1,73 +1,198 @@
 {
   "services": [
     {
-      "id": "single-family-inspection",
-      "name": "Single Family Home Inspection",
-      "description": "Comprehensive inspection of single-family homes including all major systems - covering the home from top to bottom, inside and out.",
-      "price": "$350",
-      "duration": "2-4 hours",
+      "id": "buyers-inspection",
+      "name": "Buyers Inspection",
+      "category": "standard",
+      "description": "Comprehensive pre-purchase inspection of every major system. Our detailed analysis gives you confidence before closing.",
+      "price": "Contact for pricing",
+      "priceNote": "Pricing varies based on square footage and property features",
+      "duration": "3-4 hours",
       "includes": [
-        "Roof covering and structure",
-        "Foundation, basement, & crawlspaces",
-        "Exterior",
-        "Porches & Decks",
-        "Plumbing system",
-        "Electrical system",
-        "HVAC",
-        "Interior Living Area",
-        "Kitchen and bathrooms",
-        "Attic",
-        "Garages",
-        "And more"
+        "Complete home inspection from roof to foundation",
+        "All major systems: HVAC, electrical, plumbing",
+        "Structure, exterior, and interior evaluation",
+        "Detailed report with photos and recommendations",
+        "Lifetime phone support at no extra charge"
       ]
     },
     {
-      "id": "multi-family-inspection",
-      "name": "Multi-Family Property Inspection",
-      "description": "Thorough inspection of multi-family properties including duplexes, triplexes, and small apartment buildings with multiple units.",
-      "price": "$450",
-      "duration": "3-6 hours",
+      "id": "pre-sale-inspection",
+      "name": "Pre-Sale Inspection",
+      "category": "standard",
+      "description": "The Pre-Sale Inspection is you as a homeowner getting your home inspected by a licensed professional before you put it on the market. This helps you avoid delays at the end of the real estate deal. You'll know what's wrong, and you can get it fixed or make allowances for the repairs.",
+      "price": "Contact for pricing",
+      "priceNote": "Pricing varies based on square footage and property features",
+      "duration": "3-4 hours",
       "includes": [
-        "Everything in Single Family Inspection, with",
-        "All unit inspections",
-        "Common area systems",
-        "Shared utilities assessment",
-        "Structural components",
-        "Electrical distribution",
-        "HVAC systems per unit",
-        "Comprehensive multi-unit report"
+        "Complete home inspection (same as Buyers Inspection)",
+        "Identify issues before listing your home",
+        "Get repairs done on your terms",
+        "Detailed report for buyer negotiations",
+        "Increase buyer confidence and avoid delays",
+        "Lifetime phone support at no extra charge"
       ]
     },
     {
-      "id": "pre-listing-inspection",
-      "name": "Pre-Listing Inspection",
-      "description": "Get ahead of potential issues before listing your home for sale.",
-      "price": "$300",
+      "id": "thermal-imaging",
+      "name": "Thermal Imaging (Infrared Scan)",
+      "category": "specialized",
+      "description": "Thermal Imaging is used to further verify moisture in bathrooms, under sinks, and ceilings. The thermal scan can also show you breakers in a panel box that's possibly overloaded as well as radiant heat in flooring. If you have concerns with water stains on ceilings or in and around toilets, this is a service you want to consider.",
+      "price": "Add-on service",
+      "priceNote": "Contact for pricing",
+      "duration": "Included with inspection",
+      "includes": [
+        "Moisture detection in bathrooms and under sinks",
+        "Ceiling moisture verification",
+        "Overloaded breaker detection",
+        "Radiant floor heating verification",
+        "Water stain investigation",
+        "Thermal images included in report"
+      ]
+    },
+    {
+      "id": "sewer-scope",
+      "name": "Sewer Scope Inspection",
+      "category": "specialized",
+      "description": "A main sewer line inspection from the sewer cleanout of the house to the city sewer manhole or the home's septic tank. This video inspection can reveal tree roots growing in your sewer pipe, grease collecting in the line, debris buildup, and even kids' toys that went missing. We recommend this add-on service - it's always good to know if you have any issues with the main sewer line BEFORE YOU BUY.",
+      "price": "Add-on service",
+      "priceNote": "Contact for pricing",
+      "duration": "1-2 hours",
+      "includes": [
+        "Video inspection from cleanout to connection",
+        "Tree root intrusion detection",
+        "Grease buildup identification",
+        "Debris and blockage detection",
+        "Foreign object identification",
+        "Complete video recording provided",
+        "Detailed condition assessment"
+      ]
+    },
+    {
+      "id": "radon-testing",
+      "name": "Radon Testing",
+      "category": "specialized",
+      "description": "If you are living or buying a home in Arkansas that borders Missouri, you should consider getting your home tested for radon. Radon is a naturally-occurring radioactive gas that can cause lung cancer and is the second leading cause of lung cancer in the United States. This test requires a minimum of 48 hours to complete. We are IAC2 Certified in Radon.",
+      "price": "Contact for pricing",
+      "priceNote": "Minimum 48-hour test period required",
+      "duration": "48+ hours",
+      "includes": [
+        "IAC2 Certified testing",
+        "Professional-grade radon detector",
+        "Minimum 48-hour test period",
+        "EPA-compliant testing procedures",
+        "Detailed radon level report",
+        "Mitigation recommendations (levels 4 pCi/L or higher)",
+        "Risk assessment for all levels"
+      ]
+    },
+    {
+      "id": "mold-inspection",
+      "name": "Mold Inspection & Sampling",
+      "category": "specialized",
+      "description": "We are IAC2 Mold Certified and can take samples of areas of concern and have them properly tested at a professional certified lab. Mold affects everyone differently, with people with allergies/asthma being affected more. If you suspect you're smelling mold or seeing visible signs on walls, ceilings, and window sills, you need to get it inspected. If the suspected mold area is greater than 9 sq. ft. (3'x3'), DON'T TRY TO REMEDIATE IT YOURSELF - CALL A PROFESSIONAL.",
+      "price": "Contact for pricing",
+      "priceNote": "Lab analysis included",
+      "duration": "1-2 hours",
+      "includes": [
+        "IAC2 Certified mold inspection",
+        "Professional sample collection",
+        "Certified laboratory analysis",
+        "Identification of mold types",
+        "Moisture source identification",
+        "Health risk assessment",
+        "Professional remediation recommendations",
+        "Areas larger than 9 sq ft require professional help"
+      ]
+    },
+    {
+      "id": "septic-testing",
+      "name": "Septic Load and Dye Test",
+      "category": "specialized",
+      "description": "A septic load and dye test assesses the condition and capacity of a septic system. A colored dye is introduced into the plumbing system to trace water flow from entry to the drain field. The load test intentionally floods the system with large volumes of water to evaluate its ability to handle heavy loads. This is essential due diligence when buying or selling a property with a septic system.",
+      "price": "Contact for pricing",
+      "priceNote": "Essential for properties with septic systems",
       "duration": "2-3 hours",
       "includes": [
-        "Everything in Single Family Inspection, with",
-        "Identify repair needs",
-        "Prevent deal delays",
-        "Increase buyer confidence",
-        "Detailed repair recommendations",
-        "Priority issue identification"
+        "Non-toxic, biodegradable dye testing",
+        "Flow tracing to drain field",
+        "Leak and blockage detection",
+        "Heavy load capacity testing",
+        "System stress evaluation",
+        "Drainage problem identification",
+        "Complete system assessment",
+        "Detailed findings report"
       ]
     },
     {
-      "id": "commercial-inspection",
-      "name": "Commercial Property Inspection",
-      "description": "Thorough inspection of commercial properties including office buildings, retail spaces, and industrial facilities.",
-      "price": "$500",
-      "duration": "4-8 hours",
+      "id": "meth-testing",
+      "name": "Methamphetamine Residue Sampling",
+      "category": "specialized",
+      "description": "Testing for methamphetamine in rental properties protects health, avoids legal liabilities, and maintains property value. Meth is highly toxic and can cause serious health risks, property damage, and legal issues. As a landlord, you have a legal responsibility to ensure your rental property is safe and free from hazardous substances. We recommend testing regularly, especially before and after tenant moves.",
+      "price": "Contact for pricing",
+      "priceNote": "Lab analysis fees included",
+      "duration": "1-2 hours",
       "includes": [
-        "Building envelope",
-        "Mechanical systems",
-        "Electrical systems",
-        "Fire safety systems",
-        "ADA compliance check",
-        "Environmental concerns",
-        "Comprehensive report"
+        "Professional residue sampling",
+        "Multiple location sampling",
+        "Certified laboratory analysis",
+        "Health risk assessment",
+        "Legal documentation",
+        "Contamination level reporting",
+        "Cleanup recommendations",
+        "Protect tenant health and safety",
+        "Avoid legal liabilities"
+      ]
+    },
+    {
+      "id": "insurance-inspection",
+      "name": "AR Insurance Inspection",
+      "category": "specialized",
+      "description": "AR Insurance Inspection is an extension of Cherokee Home Inspection LLC. We provide both 4-Point Insurance Inspections and Pre-Insurance Inspections. These services help ensure your property meets insurance requirements and can assist in securing favorable coverage. Often required by insurance companies to gauge risks associated with insuring the property.",
+      "price": "Contact for pricing",
+      "priceNote": "Required by many insurance companies",
+      "duration": "2-3 hours",
+      "includes": [
+        "Roof: Assessment of condition, material, age, and damage",
+        "Electrical Systems: Panel, wiring, outlets, and switches inspection",
+        "Plumbing System: Leaks, pipe condition, water heater status",
+        "HVAC System: Heating, ventilation, and AC condition and efficiency",
+        "Risk assessment for insurance purposes",
+        "Fraud prevention documentation",
+        "Coverage adjustment recommendations",
+        "Safety enhancement identification",
+        "Detailed inspection report for insurance company",
+        "Help secure favorable insurance coverage"
+      ]
+    },
+    {
+      "id": "ar-mold-inspection",
+      "name": "AR Mold Inspection",
+      "category": "specialized",
+      "description": "At AR Mold Inspection, a subsidiary of Cherokee Home Inspection LLC, we specialize in mold inspection and indoor air quality testing. Our team of IAC2-certified professionals utilizes visual inspections, thermal imaging, and moisture meters to identify potential mold-causing issues in your home. We collect samples of suspected mold growth and collaborate with our preferred certified laboratory for analysis.",
+      "price": "Contact for pricing",
+      "priceNote": "Lab analysis and comprehensive results included",
+      "duration": "1-2 hours",
+      "includes": [
+        "IAC2 Mold/Radon Certified professionals",
+        "Visual inspections for mold identification",
+        "Thermal imaging technology",
+        "Moisture meter assessments",
+        "Sample collection of suspected mold growth",
+        "Certified laboratory analysis",
+        "Comprehensive lab results report",
+        "Detailed mold types identification",
+        "Spore count analysis",
+        "Indoor air quality testing",
+        "Mold-causing issue identification"
       ]
     }
-  ]
+  ],
+  "serviceNotes": {
+    "reportDelivery": "All reports are delivered within 24 hours of inspection completion via email or text link",
+    "scheduling": "We recommend scheduling at least 3 days in advance, though we often accommodate shorter notice",
+    "clientParticipation": "Clients are encouraged to attend the last hour of the inspection to review findings and ask questions",
+    "paymentTiming": "Payment is due at time of inspection",
+    "software": "We use state-of-the-art Spectora software for all inspections and reports"
+  }
 }
