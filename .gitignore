@@ -38,3 +38,18 @@ next-env.d.ts
 
 # package manager lock files (keep yarn.lock since you're using yarn)
 package-lock.json
+
+# Documentation/notes files in root (but keep README.md)
+*_UPDATES*.md
+*_IMPLEMENTATION*.md
+*_LOG*.md
+*_SUMMARY*.md
+REQUIRED_*.md
+!README.md
+
+# Images in root (should be in public/)
+/*.jpg
+/*.jpeg
+/*.png
+/*.gif
+/*.webp
